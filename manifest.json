@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.31",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"options": [
 		{
 			"group": "Replacer",
@@ -37,8 +37,8 @@
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
-						"946160713": "Journalist 47",
-						"798452684": "The outfit of Journalist from Dubai Mission."
+						"798452684": "The outfit of Journalist from Dubai Mission.",
+						"946160713": "Journalist 47"
 					}
 				}
 			}
@@ -54,8 +54,8 @@
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
-						"946160713": "Orange Journalist 47",
-						"798452684": "The outfit of Journalist from Dubai Mission."
+						"798452684": "The outfit of Journalist from Dubai Mission.",
+						"946160713": "Orange Journalist 47"
 					}
 				}
 			}
@@ -71,8 +71,8 @@
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
-						"946160713": "Noire 47",
-						"798452684": "This outfit is inspired from L.A. Noire."
+						"798452684": "This outfit is inspired from L.A. Noire.",
+						"946160713": "Noire 47"
 					}
 				}
 			}
@@ -88,8 +88,8 @@
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
-						"946160713": "Noire 47",
-						"798452684": "This outfit is inspired from L.A. Noire."
+						"798452684": "This outfit is inspired from L.A. Noire.",
+						"946160713": "Noire 47"
 					}
 				}
 			}
@@ -688,5 +688,6 @@
 			"toChunk": 0,
 			"portFromChunk1": true
 		}
-	]
+	],
+	"updateCheck": "https://github.com/Tushar99991/Edgar-Creative/releases/latest/download/updates.json"
 }
