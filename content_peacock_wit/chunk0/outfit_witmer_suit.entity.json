@@ -108,6 +108,7 @@
 						"cafe0f0928d837b1",
 						"cafe67f1ec03b387",
 						"cafe1db5b2b53712",
+						"cafe33783253fe83",
 						"cafe95ec735f96fe",
 						"cafe1a1bd4f28cc5",
 						"cafe0d1f8d854409",
@@ -707,7 +708,11 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafefebfdd150070", "cafe230e1d484f0a", "cafe0f538e81b51b"],
+					"value": [
+						"cafefebfdd150070",
+						"cafe230e1d484f0a",
+						"cafe0f538e81b51b"
+					],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1337,7 +1342,11 @@
 			"properties": {
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe5c0c952031b7", "cafe5e8afaf03fa8", "cafe9e47a09d5482"]
+					"value": [
+						"cafe5c0c952031b7",
+						"cafe5e8afaf03fa8",
+						"cafe9e47a09d5482"
+					]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -1759,7 +1768,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafe6c7339dc334f", "cafe6ff784bbb33f", "cafe7f2bffb4828b", "cafe5bdf990943e7"]
+					"T": [
+						"cafe6c7339dc334f",
+						"cafe6ff784bbb33f",
+						"cafe7f2bffb4828b",
+						"cafe5bdf990943e7"
+					]
 				}
 			}
 		},
@@ -1785,6 +1799,7 @@
 						"cafe1a1bd4f28cc5",
 						"cafe0d1f8d854409",
 						"cafe305880c6d49c",
+						"cafe33783253fe83",
 						"cafefbd6db74e190",
 						"cafe70d7e111d571",
 						"cafe51167709c153",
@@ -1819,6 +1834,7 @@
 						"cafe500ef61d08dd",
 						"cafe0d1f8d854409",
 						"cafe305880c6d49c",
+						"cafe33783253fe83",
 						"cafefbd6db74e190",
 						"cafe70d7e111d571",
 						"cafe51167709c153",
@@ -1849,6 +1865,7 @@
 						"cafe305880c6d49c",
 						"cafefbd6db74e190",
 						"cafe70d7e111d571",
+						"cafe33783253fe83",
 						"cafe500ef61d08dd",
 						"cafe51167709c153",
 						"cafe541791db6cd0",
@@ -1882,6 +1899,7 @@
 						"cafe305880c6d49c",
 						"cafefbd6db74e190",
 						"cafe70d7e111d571",
+						"cafe33783253fe83",
 						"cafe51167709c153",
 						"cafe541791db6cd0",
 						"cafe4d9db2095be7",
@@ -2785,7 +2803,11 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafed664bd160750", "cafec16a41b50e26", "cafe6be2f9cd40b8"],
+					"value": [
+						"cafed664bd160750",
+						"cafec16a41b50e26",
+						"cafe6be2f9cd40b8"
+					],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2803,7 +2825,11 @@
 			"properties": {
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafef37afc6b994d", "cafe9b43ebd978b5", "cafe2f39d7370c26"]
+					"value": [
+						"cafef37afc6b994d",
+						"cafe9b43ebd978b5",
+						"cafe2f39d7370c26"
+					]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -3339,6 +3365,12 @@
 					"value": "#7d644d"
 				}
 			}
+		},
+		"cafe33783253fe83": {
+			"parent": "22ea5f8267450642",
+			"name": "Hands",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/hands.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/hands.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],
