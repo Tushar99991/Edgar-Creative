@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_PAPA_SUIT": {
+		"Guid": "5108e57c-71c7-474d-9f79-c3f4cc8619e6",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "e274b2a4-a7e8-4a58-8aa3-80898149b9e6",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

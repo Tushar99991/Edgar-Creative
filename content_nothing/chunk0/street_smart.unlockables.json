@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_STREET_SMART": {
+		"Guid": "1b8b2e45-6eb1-4732-92b8-e8ce1a07ca42",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "12450eab-18a1-491c-9ae7-7952c7a4332c",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

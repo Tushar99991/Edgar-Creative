@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_SHIV_SUIT": {
+		"Guid": "a0e09c61-a53d-4a4c-9d14-28631b54e92d",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "4bc7ad6a-0e55-47d1-bd58-a3726b87bee4",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

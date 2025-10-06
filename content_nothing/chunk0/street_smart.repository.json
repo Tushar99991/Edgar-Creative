@@ -1,0 +1,13 @@
+{
+	"12450eab-18a1-491c-9ae7-7952c7a4332c": {
+		"CommonName": "CHAR_Global_Hero_Street_Smart_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_street_smart.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_STREET_SMART"
+	}
+}

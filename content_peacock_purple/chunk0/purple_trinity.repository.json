@@ -1,0 +1,13 @@
+{
+	"24830e1b-90a8-43cd-b7fe-0a3a2aa313da": {
+		"CommonName": "CHAR_Global_Hero_Purple_Trinity_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_PURPLE_TRINITY_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_Purple_Trinity.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_PURPLE_TRINITY_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_PURPLE_TRINITY"
+	}
+}

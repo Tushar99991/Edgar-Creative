@@ -1,0 +1,34 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f487d9c1dea2852c",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_jojo_suit.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f487d9c1dea2852c",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_jojo_suit.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"35b64e952cd0d971",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

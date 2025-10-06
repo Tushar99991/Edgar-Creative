@@ -1,0 +1,13 @@
+{
+	"16ef2a74-983f-43ca-aaf5-5601774b0b5b": {
+		"CommonName": "CHAR_Global_Hero_Witmer_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_WITMER_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_detective.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_WITMER_SUIT_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_WITMER_SUIT"
+	}
+}

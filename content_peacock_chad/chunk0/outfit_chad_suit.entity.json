@@ -1,0 +1,1444 @@
+{
+	"tempHash": "00EA8C048A6DCE7D",
+	"tbluHash": "002621DC7C65E9AB",
+	"rootEntity": "22ea5f8267450642",
+	"entities": {
+		"22ea5f8267450642": {
+			"parent": null,
+			"name": "OUTFIT_Agent47_Chad_Suit_HeroA_V0",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype,[modules:/zheroidlenetworkaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype,[modules:/zheroidlenetworkaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 39.068450927734375,
+							"y": 4.066530227661133,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47/geometry/agent47_s3_head.wl2?/bones.weightedprim](bodypart).pc_bonerig",
+						"flag": "5F"
+					}
+				},
+				"m_bUsePerVertexStiffness": {
+					"type": "bool",
+					"value": true
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_bGlobalCollidersEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDamping": { "type": "float32", "value": 1.0 },
+				"m_fBendStiffness": { "type": "float32", "value": 1.0 },
+				"m_bUsePerVertexDamping": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShearStiffness": { "type": "float32", "value": 1.0 },
+				"m_bUseSkinningPosNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseSkinningNegNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nIterations": { "type": "uint32", "value": 2 },
+				"m_fFrequency": { "type": "float32", "value": 90.0 },
+				"m_vTranslationScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.10000000149011612,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": { "x": 0.0, "y": 0.0, "z": -13.0 }
+				},
+				"m_fLODOffset": { "type": "float32", "value": 100.0 },
+				"m_fDragConstant": { "type": "float32", "value": 1.0 },
+				"m_eStretchConstrainType": {
+					"type": "EClothStretchConstrainType",
+					"value": "eClothBendConstrainType_LRA"
+				},
+				"m_fAngularVelocityThreshold": {
+					"type": "float32",
+					"value": 60.0
+				},
+				"m_eRootBone": {
+					"type": "BoneId.Enum",
+					"value": "PELVIS"
+				},
+				"m_bEnableAngularVelocityScale": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Triangle"
+				},
+				"m_bRandomStartState": { "type": "bool", "value": true },
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_bSimulationEnabled": { "type": "bool", "value": true },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafeff3f34aa247e",
+						"cafe62b6024a64bc",
+						"cafe82ef6773af58",
+						"cafecc1fc195a6e6",
+						"cafe1cb3076955a0",
+						"cafe9458fe22d359",
+						"cafe00a20ad15c33",
+						"cafe492fa012cf09",
+						"cafe21502c4c94a5",
+						"cafe9c392117572b",
+						"cafe41cb1b9dc46d",
+						"cafe8f0f28cfe80d",
+						"cafedfb5b5ccc631",
+						"cafe0e5022cc88ea"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe3ac57e41244e": {
+			"parent": "22ea5f8267450642",
+			"name": "Base Diffuse",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 0.4399999976158142 },
+				"m_fT": { "type": "float32", "value": 0.0 },
+				"m_B": { "type": "float32", "value": 0.800000011920929 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_01_Value": [
+						"cafe9c392117572b",
+						"cafecc1fc195a6e6",
+						"cafe9458fe22d359",
+						"cafeff3f34aa247e",
+						"cafedfb5b5ccc631",
+						"cafe82ef6773af58",
+						"cafe1cb3076955a0",
+						"cafe492fa012cf09",
+						"cafe00a20ad15c33"
+					]
+				}
+			}
+		},
+		"cafe62b6024a64bc": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Belt_Military",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/belt_utility_military.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe8d445b1ed43c": {
+			"parent": "cafe9458fe22d359",
+			"name": "male_reg_militia_elite_kevlarves",
+			"factory": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/materials/male_reg_militia_elite_kevlarves.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/materials/male_reg_militia_elite_kevlarves.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 8.702907883234016e-8
+						},
+						"position": {
+							"x": -5.731328087676957e-7,
+							"y": -2.1452919440889673e-8,
+							"z": 0.0
+						}
+					}
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#b0b0b0"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe9458fe22d359", "22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2d904a666bf7": {
+			"parent": "22ea5f8267450642",
+			"name": "Base Normal Bump Scale",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 1.3799999952316284 },
+				"m_fT": { "type": "float32", "value": 0.0 },
+				"m_B": { "type": "float32", "value": 2.049999952316284 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_06_Value": [
+						"cafe00a20ad15c33",
+						"cafe492fa012cf09",
+						"cafe1cb3076955a0",
+						"cafe41cb1b9dc46d",
+						"cafe82ef6773af58",
+						"cafe8f0f28cfe80d",
+						"cafeff3f34aa247e",
+						"cafe21502c4c94a5",
+						"cafe9458fe22d359",
+						"cafecc1fc195a6e6",
+						"cafe9c392117572b"
+					]
+				}
+			}
+		},
+		"cafed310f24177bc": {
+			"parent": "cafe1cb3076955a0",
+			"name": "male_reg_militia_elite_holster",
+			"factory": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/materials/male_reg_militia_elite_holster.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/materials/male_reg_militia_elite_holster.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 8.702907883234016e-8
+						},
+						"position": {
+							"x": -5.731328087676957e-7,
+							"y": -2.1452919440889673e-8,
+							"z": 0.0
+						}
+					}
+				},
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/textures/male_reg_militia_elite_holster.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe1cb3076955a0", "22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb2331e08e970": {
+			"parent": "cafe8f0f28cfe80d",
+			"name": "balaclava",
+			"factory": "[assembly:/_pro/characters/assets/guards/fauxcrystaldawn_soldier/materials/regmale_fauxcrystaldawn_balaclava_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/fauxcrystaldawn_soldier/materials/regmale_fauxcrystaldawn_balaclava_01.mi].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#633408"
+				},
+				"Diffuse_Saturation_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.9300000071525574
+				},
+				"Diffuse_Hue_Shift_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.019999999552965164
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_03_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 8.702907883234016e-8
+						},
+						"position": {
+							"x": -1.5278350247172057e-6,
+							"y": -2.7378399991562226e-8,
+							"z": 0.0
+						}
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/fauxcrystaldawn_soldier/textures/male_reg_fauxcrystaldawn_01_balaclava_01.texture?/diffuse_3hole_white.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 6.0
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe8f0f28cfe80d"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8f0f28cfe80d": {
+			"parent": "22ea5f8267450642",
+			"name": "Balaclava_3hole",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/geometry/male_reg_headwear_skinned.wl2?/balaclava_3hole_widerneck.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafeb2331e08e970"]
+				},
+				"ConstantVector1D_14_Value": {
+					"ConstantVector1D_14_Value": ["cafeb2331e08e970"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafeb2331e08e970"]
+				}
+			}
+		},
+		"cafe69ecd781d75f": {
+			"parent": "cafecc1fc195a6e6",
+			"name": "male_reg_lab_guard_01_acc_01",
+			"factory": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/materials/male_reg_lab_guard_01_acc_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/materials/male_reg_lab_guard_01_acc_01.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -3.756940042181971
+						},
+						"position": {
+							"x": -2.1015191078186035,
+							"y": -3.012917995452881,
+							"z": 0.001079000998288393
+						}
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/textures/male_reg_lab_guard_01_acc_01.texture?/diffuse_lambic_guards.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/textures/male_reg_lab_guard_01_acc_01.texture?/specular_lambic_guards.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecc1fc195a6e6", "22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5a0cf3288815": {
+			"parent": "22ea5f8267450642",
+			"name": "Jacket Spec",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 1.5800000429153442 },
+				"m_B": { "type": "float32", "value": 0.5099999904632568 },
+				"m_fT": { "type": "float32", "value": 0.0 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_04_Value": [
+						"cafe00a20ad15c33",
+						"cafe492fa012cf09",
+						"cafe1cb3076955a0",
+						"cafedfb5b5ccc631",
+						"cafeff3f34aa247e",
+						"cafe9458fe22d359",
+						"cafecc1fc195a6e6",
+						"cafe9c392117572b"
+					],
+					"ConstantVector1D_14_Value": [
+						"cafe41cb1b9dc46d",
+						"cafe82ef6773af58",
+						"cafe8f0f28cfe80d",
+						"cafe21502c4c94a5"
+					]
+				}
+			}
+		},
+		"cafe6ab5ae21f82e": {
+			"parent": "cafe62b6024a64bc",
+			"name": "male_reg_militia_technician_beltholster",
+			"factory": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/materials/male_reg_militia_technician_beltholster.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/materials/male_reg_militia_technician_beltholster.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 8.702907883234016e-8
+						},
+						"position": {
+							"x": -5.731328087676957e-7,
+							"y": -2.1452919440889673e-8,
+							"z": 0.0
+						}
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["22ea5f8267450642"]
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/textures/male_reg_militia_technician_beltholster.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#666666"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0e5022cc88ea": {
+			"parent": "22ea5f8267450642",
+			"name": "Head_47",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_unique.template?/head_47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_unique.template?/head_47.entitytemplate].pc_entityblueprint"
+		},
+		"cafe9458fe22d359": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Kevlar_Vest",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/kevlarvest.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafe8d445b1ed43c"]
+				},
+				"ConstantVector1D_04_Value": {
+					"ConstantVector1D_04_Value": ["cafe8d445b1ed43c"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafe8d445b1ed43c"]
+				}
+			}
+		},
+		"cafe132fd4bb01cd": {
+			"parent": "cafe00a20ad15c33",
+			"name": "male_reg_blackrussian_kneepads",
+			"factory": "[assembly:/_pro/characters/assets/individuals/colorado/elusivetarget_blackrussian/material/male_reg_blackrussian_kneepads.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/colorado/elusivetarget_blackrussian/material/male_reg_blackrussian_kneepads.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe00a20ad15c33"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe00a20ad15c33": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Kneepads",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/kneepads.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			},
+			"platformSpecificProperties": {
+				"VR_PC": {
+					"m_IsHiddenInVR": { "type": "bool", "value": false }
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafe132fd4bb01cd"]
+				},
+				"ConstantVector1D_04_Value": {
+					"ConstantVector1D_04_Value": ["cafe132fd4bb01cd"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafe132fd4bb01cd"]
+				}
+			}
+		},
+		"cafec8a4f1497a37": {
+			"parent": "22ea5f8267450642",
+			"name": "FX_Hitman_Wet_Logic_Character_01",
+			"factory": "[assembly:/_pro/effects/templates/water/fx_water_hitman_wet_logic.template?/fx_hitman_wet_logic_character.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_hitman_wet_logic.template?/fx_hitman_wet_logic_character.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"HeadMaterialToOverride": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg_heads_unique/materials/male_reg_head_47_s3.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"HeadMaterialOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["22ea5f8267450642"]
+				}
+			},
+			"events": {
+				"HitmanWetness": {
+					"T": ["cafe3ac57e41244e", "cafe2d904a666bf7", "cafe5a0cf3288815"]
+				}
+			}
+		},
+		"cafe1cb3076955a0": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Holster_Nylon_R",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/holster_r_nylon.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			},
+			"platformSpecificProperties": {
+				"VR_PC": {
+					"m_IsHiddenInVR": { "type": "bool", "value": false }
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafed310f24177bc"]
+				},
+				"ConstantVector1D_04_Value": {
+					"ConstantVector1D_04_Value": ["cafed310f24177bc"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafed310f24177bc"]
+				}
+			}
+		},
+		"cafecc1fc195a6e6": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Harness",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/harness.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafe69ecd781d75f"]
+				},
+				"ConstantVector1D_04_Value": {
+					"ConstantVector1D_04_Value": ["cafe69ecd781d75f"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafe69ecd781d75f"]
+				}
+			}
+		},
+		"cafe42387e653a97": {
+			"parent": "cafedfb5b5ccc631",
+			"name": "mask_glass",
+			"factory": "[assembly:/_pro/characters/assets/guards/rat/elusive_lambic/mask_glass.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/rat/elusive_lambic/mask_glass.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafedfb5b5ccc631"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafedfb5b5ccc631": {
+			"parent": "22ea5f8267450642",
+			"name": "Mask",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/lambic/geomtry/mask.wl2?/mask.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			},
+			"inputCopying": {
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafe42387e653a97"]
+				},
+				"ConstantVector1D_04_Value": {
+					"ConstantVector1D_04_Value": ["cafe42387e653a97"]
+				}
+			}
+		},
+		"cafe3194a30f4c34": {
+			"parent": "cafe41cb1b9dc46d",
+			"name": "male_reg_lab_guard_01_sweater_01",
+			"factory": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/materials/male_reg_lab_guard_01_sweater_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/materials/male_reg_lab_guard_01_sweater_01.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -6.41988919399516e-8
+						},
+						"position": {
+							"x": -1.236013957850446e-7,
+							"y": -9.73438574192187e-8,
+							"z": 0.0
+						}
+					}
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#eb7100"
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/textures/male_reg_lab_guard_01_sweater_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe41cb1b9dc46d", "22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe41cb1b9dc46d": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Sweater_Fleece",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/sweater_fleece_tkd.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_14_Value": {
+					"ConstantVector1D_14_Value": ["cafe3194a30f4c34"]
+				},
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafe3194a30f4c34"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafe3194a30f4c34"]
+				}
+			}
+		},
+		"cafec785ee088441": {
+			"parent": "cafe492fa012cf09",
+			"name": "male_reg_militia_technician_legholste",
+			"factory": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/materials/male_reg_militia_technician_legholste.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/materials/male_reg_militia_technician_legholste.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 8.702907883234016e-8
+						},
+						"position": {
+							"x": -5.731328087676957e-7,
+							"y": -2.1452919440889673e-8,
+							"z": 0.0
+						}
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/textures/male_reg_militia_technician_legholste.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ShaderLOD_Speccolor_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"ShaderLOD_Gloss_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"ShaderLOD_Gloss": {
+					"type": "float32",
+					"value": 0.27000001072883606
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe492fa012cf09", "22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe492fa012cf09": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_LegHolster",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/legholster.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			},
+			"platformSpecificProperties": {
+				"VR_PC": {
+					"m_IsHiddenInVR": { "type": "bool", "value": false }
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafec785ee088441"]
+				},
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafec785ee088441"]
+				},
+				"ConstantVector1D_04_Value": {
+					"ConstantVector1D_04_Value": ["cafec785ee088441"]
+				}
+			}
+		},
+		"cafe4ca93e6c7f77": {
+			"parent": "cafeff3f34aa247e",
+			"name": "male_reg_militia_technician_gloves",
+			"factory": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/materials/male_reg_militia_technician_gloves.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/materials/male_reg_militia_technician_gloves.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 8.702907883234016e-8
+						},
+						"position": {
+							"x": -5.731328087676957e-7,
+							"y": -2.1452919440889673e-8,
+							"z": 0.0
+						}
+					}
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#242424"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/textures/male_reg_militia_technician_gloves.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": false },
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.6899999976158142
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafeff3f34aa247e": {
+			"parent": "22ea5f8267450642",
+			"name": "Gloves_Combat_Kevlar",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_hands.template?/gloves_combat_kevlar.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_hands.template?/gloves_combat_kevlar.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#333232"
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.4000000059604645
+				}
+			}
+		},
+		"cafe4bee6012b04d": {
+			"parent": "cafe9c392117572b",
+			"name": "male_reg_militia_spec_ops_shoulderpads",
+			"factory": "[assembly:/_pro/characters/assets/guards/colorado/militia_spec_ops/materials/male_reg_militia_spec_ops_shoulderpads.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/colorado/militia_spec_ops/materials/male_reg_militia_spec_ops_shoulderpads.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe9c392117572b"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9c392117572b": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Shoulderpads",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/shoulderpads.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafe4bee6012b04d"]
+				},
+				"ConstantVector1D_04_Value": {
+					"ConstantVector1D_04_Value": ["cafe4bee6012b04d"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafe4bee6012b04d"]
+				}
+			}
+		},
+		"cafef6535395c59a": {
+			"parent": "cafe21502c4c94a5",
+			"name": "male_regular_sean_02_pant_01",
+			"factory": "[assembly:/_pro/characters/assets/individuals/sean/materials/male_regular_sean_02_pant_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/sean/materials/male_regular_sean_02_pant_01.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 8.702907883234016e-8
+						},
+						"position": {
+							"x": -5.731328087676957e-7,
+							"y": -2.1452919440889673e-8,
+							"z": 0.0
+						}
+					}
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#f0790a"
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/sean/textures/male_regular_sean_02_pant_01.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 14.0
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe21502c4c94a5", "22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe21502c4c94a5": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Pant",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/pants_cargo_tkd_low.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			},
+			"platformSpecificProperties": {
+				"VR_PC": {
+					"m_IsHiddenInVR": { "type": "bool", "value": false }
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafef6535395c59a"]
+				},
+				"ConstantVector1D_14_Value": {
+					"ConstantVector1D_14_Value": ["cafef6535395c59a"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafef6535395c59a"]
+				}
+			}
+		},
+		"cafe70d572a16782": {
+			"parent": "cafe82ef6773af58",
+			"name": "agent47_sheep_boots",
+			"factory": "[assembly:/_pro/characters/assets/hero/agent47_outfits/materials/agent47_sheep_boots.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/hero/agent47_outfits/materials/agent47_sheep_boots.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 8.702907883234016e-8
+						},
+						"position": {
+							"x": -5.731328087676957e-7,
+							"y": -2.1452919440889673e-8,
+							"z": 0.0
+						}
+					}
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#a3a3a3"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe82ef6773af58", "22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe82ef6773af58": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Boots",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/wolverine/providenceguardelite_m/geometry/male_reg_providenceguardelite.wl2?/sheep_boots.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			},
+			"platformSpecificProperties": {
+				"VR_PC": {
+					"m_IsHiddenInVR": { "type": "bool", "value": false }
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafe70d572a16782"]
+				},
+				"ConstantVector1D_14_Value": {
+					"ConstantVector1D_14_Value": ["cafe70d572a16782"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafe70d572a16782"]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/philip/textures/male_reg_philip_01_tie_01.texture?/specular_f.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/philip/textures/male_reg_philip_01_tie_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_jacket.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_shirt.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/textures/male_reg_socks.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/textures/male_reg_socks.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/textures/male_reg_socks.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/geometry/male_reg_socks.wl2?/socks_cut_shoe.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_s3_head.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_s3_head.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_s3_head.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/suit_pants/textures/male_reg_suit_pants_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/suit_pants/textures/male_reg_suit_pants_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/belt/textures/male_reg_belt_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/belt/textures/male_reg_belt_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/belt/textures/male_reg_belt_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_jacket.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/_test/dagb/textures/male_reg_suit_jacket_stretch_01.texture?/normal_open_stretched.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/_test/antonk/fabrictile_test.texture?/height_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_jacket.texture?/normal_open.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_pants.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_pants.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_pants.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/geometry/male_reg_arms.wl2?/hands.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

@@ -1,0 +1,13 @@
+{
+	"cbd0772c-0760-429a-b9c0-28cd562b6509": {
+		"CommonName": "CHAR_Global_Hero_Rama_Suit_M",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_rama.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_RAMA_SUIT_NAME",
+		"Description": "UI_TOKEN_OUTFIT_HERO_RAMA_SUIT_DESC",
+		"TokenID": "TOKEN_OUTFIT_HERO_RAMA_SUIT",
+		"Category": ""
+	}
+}

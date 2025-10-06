@@ -1,0 +1,13 @@
+{
+	"dd7960b1-35a1-4d5b-8e42-561ee0699610": {
+		"CommonName": "CHAR_Global_Hero_Rolf_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_ROLF_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_rilf.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_ROLF_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_ROLF_SUIT",
+		"Category": ""
+	}
+}

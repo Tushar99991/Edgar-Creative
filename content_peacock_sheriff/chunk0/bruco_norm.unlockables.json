@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_BRUCO_NORM": {
+		"Guid": "5f263271-0f5f-4072-8254-40a5d68e7df1",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "d005afd7-e8a6-4bb3-af40-c96e48ba8002",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

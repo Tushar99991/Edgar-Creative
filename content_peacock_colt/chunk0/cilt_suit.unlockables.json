@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_CILT_SUIT": {
+		"Guid": "f2ae8c53-6824-4825-9fc7-a0592753191b",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "181193c0-1795-4d47-924f-b93c9a17474e",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

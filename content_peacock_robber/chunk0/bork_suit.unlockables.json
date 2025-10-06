@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_BORK_SUIT": {
+		"Guid": "76a69ba3-9c5c-4256-971f-aeadf7c43c95",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "84b0dd9d-9244-4eaa-90a1-0429862a61cf",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

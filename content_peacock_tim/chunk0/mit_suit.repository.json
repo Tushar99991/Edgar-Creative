@@ -1,0 +1,13 @@
+{
+	"e342d8f8-6c32-48ee-8a33-0634d5f52f56": {
+		"CommonName": "CHAR_Global_Hero_Mit_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_MIT_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_tim.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_MIT_SUIT_NAME",
+		"Category": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_MIT_SUIT"
+	}
+}

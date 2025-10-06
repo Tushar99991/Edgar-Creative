@@ -1,0 +1,13 @@
+{
+	"b865c2f1-7ae4-4593-a709-b459757660c5": {
+		"CommonName": "CHAR_Global_Hero_Jaby_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_JABY_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_orange.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_JABY_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_JABY_SUIT",
+		"Category": ""
+	}
+}

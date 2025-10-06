@@ -1,0 +1,13 @@
+{
+	"d4649c66-4210-4445-8d9c-a01f1eb17f1c": {
+		"CommonName": "CHAR_Global_Hero_Joji_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_JOJI_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_joji.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_JOJI_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_JOJI_SUIT",
+		"Category": ""
+	}
+}

@@ -1,0 +1,1449 @@
+{
+	"tempHash": "002A354234A447E6",
+	"tbluHash": "0024FD273A27318E",
+	"rootEntity": "22ea5f8267450642",
+	"entities": {
+		"22ea5f8267450642": {
+			"parent": null,
+			"name": "OUTFIT_Agent47_Bork_Suit_HeroA_V0",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype,[modules:/zheroidlenetworkaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype,[modules:/zheroidlenetworkaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 39.068450927734375,
+							"y": 4.066530227661133,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47/geometry/agent47_s3_head.wl2?/bones.weightedprim](bodypart).pc_bonerig",
+						"flag": "5F"
+					}
+				},
+				"m_bUsePerVertexStiffness": {
+					"type": "bool",
+					"value": true
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_bGlobalCollidersEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDamping": { "type": "float32", "value": 1.0 },
+				"m_fBendStiffness": { "type": "float32", "value": 1.0 },
+				"m_bUsePerVertexDamping": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShearStiffness": { "type": "float32", "value": 1.0 },
+				"m_bUseSkinningPosNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseSkinningNegNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nIterations": { "type": "uint32", "value": 2 },
+				"m_fFrequency": { "type": "float32", "value": 90.0 },
+				"m_vTranslationScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.10000000149011612,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": { "x": 0.0, "y": 0.0, "z": -13.0 }
+				},
+				"m_fLODOffset": { "type": "float32", "value": 100.0 },
+				"m_fDragConstant": { "type": "float32", "value": 1.0 },
+				"m_eStretchConstrainType": {
+					"type": "EClothStretchConstrainType",
+					"value": "eClothBendConstrainType_LRA"
+				},
+				"m_fAngularVelocityThreshold": {
+					"type": "float32",
+					"value": 60.0
+				},
+				"m_eRootBone": {
+					"type": "BoneId.Enum",
+					"value": "PELVIS"
+				},
+				"m_bEnableAngularVelocityScale": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Triangle"
+				},
+				"m_bRandomStartState": { "type": "bool", "value": true },
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_bSimulationEnabled": { "type": "bool", "value": true },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ca9e86cfdaed4c16",
+						"df28b22e2ba1029b",
+						"cafe68bab981c660",
+						"cafe404838bd12d0",
+						"cafe7ec817c260e7",
+						"cafe9a560e50c9da",
+						"cafed771262a061a",
+						"cafea19671be1e9a",
+						"cafe21744b3a6dcd",
+						"cafe0db9f4cfeeed",
+						"cafe25182bc93132",
+						"cafe7fe12e2f041e"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"df28b22e2ba1029b": {
+			"parent": "22ea5f8267450642",
+			"name": "Hands",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/hands.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/hands.entitytemplate].pc_entityblueprint"
+		},
+		"ca9e86cfdaed4c16": {
+			"parent": "22ea5f8267450642",
+			"name": "Head_47",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_unique.template?/head_47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_unique.template?/head_47.entitytemplate].pc_entityblueprint"
+		},
+		"cafe7339b1dffb25": {
+			"parent": "cafe7ec817c260e7",
+			"name": "male_reg_dustsuit",
+			"factory": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/materials/male_reg_dustsuit.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/materials/male_reg_dustsuit.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.1381402664198069,
+							"y": 0.009511100468776996,
+							"z": 47.0345503735577
+						},
+						"position": {
+							"x": -0.11980800330638884,
+							"y": -0.07262600213289261,
+							"z": 0.004809000063687563
+						}
+					}
+				},
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_15_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Diffuse_Saturation_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Hue_Shift_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_03_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_13_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_16_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_16_Value": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"ConstantVector1D_13_Value": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_dustsuit.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_dustsuit.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_15_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"ConstantVector1D_14_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_dustsuit.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe7ec817c260e7"],
+					"postInit": true
+				}
+			}
+		},
+		"cafefc8b4df573d3": {
+			"parent": "cafe68bab981c660",
+			"name": "male_reg_dustsuit",
+			"factory": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/materials/male_reg_dustsuit.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/materials/male_reg_dustsuit.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.1381402664198069,
+							"y": 0.009511100468776996,
+							"z": 47.0345503735577
+						},
+						"position": {
+							"x": -0.11980800330638884,
+							"y": -0.07262600213289261,
+							"z": 0.004809000063687563
+						}
+					}
+				},
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_15_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Diffuse_Saturation_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Hue_Shift_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_03_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_13_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_16_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_16_Value": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"ConstantVector1D_13_Value": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_dustsuit.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_dustsuit.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_15_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"ConstantVector1D_14_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_dustsuit.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe68bab981c660"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe7fe12e2f041e": {
+			"parent": "22ea5f8267450642",
+			"name": "Shoes_Boots_Plain",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_feet.template?/shoes_boots_plain.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_feet.template?/shoes_boots_plain.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#dec3b1"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafed771262a061a": {
+			"parent": "22ea5f8267450642",
+			"name": "Gloves_Gardening",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_hands.template?/gloves_gardening.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_hands.template?/gloves_gardening.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#45668a"
+				}
+			}
+		},
+		"cafe25182bc93132": {
+			"parent": "22ea5f8267450642",
+			"name": "R_ForeTwist2_Attacher",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": {
+					"type": "ZString",
+					"value": "L_ForeTwist2"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0019970000721514225
+						}
+					}
+				}
+			}
+		},
+		"cafe696dc229f835": {
+			"parent": "cafe7ec817c260e7",
+			"name": "Mesh",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/geometry/male_reg_unique_bankrobber.wl2?/legs.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			},
+			"platformSpecificProperties": {
+				"VR_PS4": {
+					"m_IsHiddenInVR": { "type": "bool", "value": false }
+				}
+			}
+		},
+		"cafe6f3cbf1d01ba": {
+			"parent": "cafe21744b3a6dcd",
+			"name": "male_reg_mask_rabbit",
+			"factory": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/materials/male_reg_mask_rabbit.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/materials/male_reg_mask_rabbit.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_mask.texture?/diffuse_metal.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_mask.texture?/specular_gold.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Active": { "type": "bool", "value": false },
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe21744b3a6dcd"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe7ec817c260e7": {
+			"parent": "22ea5f8267450642",
+			"name": "DustSuit_HoodUp_Legs",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/geometry/male_reg_unique_bankrobber.wl2?/legs.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafe7339b1dffb25"]
+				},
+				"ConstantVector1D_14_Value": {
+					"ConstantVector1D_14_Value": ["cafe7339b1dffb25"]
+				},
+				"ConstantVector1D_15_Value": {
+					"ConstantVector1D_15_Value": ["cafe7339b1dffb25"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafe7339b1dffb25"]
+				}
+			},
+			"propertyAliases": {
+				"ConstantVector1D_01_Value_1": [
+					{
+						"originalProperty": "ConstantVector1D_01_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"ConstantVector1D_03_Value": [
+					{
+						"originalProperty": "ConstantVector1D_03_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"ConstantVector1D_05_Value": [
+					{
+						"originalProperty": "ConstantVector1D_05_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"ConstantVector1D_13_Value": [
+					{
+						"originalProperty": "ConstantVector1D_13_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"ConstantVector1D_14_Value": [
+					{
+						"originalProperty": "ConstantVector1D_14_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"ConstantVector1D_15_Value": [
+					{
+						"originalProperty": "ConstantVector1D_15_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"ConstantVector1D_16_Value": [
+					{
+						"originalProperty": "ConstantVector1D_16_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"Diffuse_Color_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Color_01_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"Diffuse_Hue_Shift_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Hue_Shift_01_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"Diffuse_Saturation_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Saturation_01_Value",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"Texture2DNormal_01_1": [
+					{
+						"originalProperty": "Texture2DNormal_01",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"Texture2D_01_1": [
+					{
+						"originalProperty": "Texture2D_01",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"Texture2D_03_1": [
+					{
+						"originalProperty": "Texture2D_03",
+						"originalEntity": "cafe7339b1dffb25"
+					}
+				],
+				"m_pMeshResource": [
+					{
+						"originalProperty": "m_pMeshResource",
+						"originalEntity": "cafe696dc229f835"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZBodyPartEntity": "cafe696dc229f835",
+				"ZClothColliderGroupAspect": "cafe696dc229f835"
+			}
+		},
+		"cafecc8723fbd8a2": {
+			"parent": "cafe404838bd12d0",
+			"name": "male_reg_dustsuit",
+			"factory": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/materials/male_reg_dustsuit.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/materials/male_reg_dustsuit.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.1381402664198069,
+							"y": 0.009511100468776996,
+							"z": 47.0345503735577
+						},
+						"position": {
+							"x": -0.11980800330638884,
+							"y": -0.07262600213289261,
+							"z": 0.004809000063687563
+						}
+					}
+				},
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_15_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Diffuse_Saturation_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Hue_Shift_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_03_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_13_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_16_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_16_Value": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"ConstantVector1D_13_Value": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_dustsuit.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_dustsuit.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_15_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"ConstantVector1D_14_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/textures/male_reg_dustsuit.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe404838bd12d0"],
+					"postInit": true
+				}
+			}
+		},
+		"cafea19671be1e9a": {
+			"parent": "22ea5f8267450642",
+			"name": "male_reg_eyelashes",
+			"factory": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/materials/male_reg_eyelashes.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/materials/male_reg_eyelashes.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"ConstantVector1D_15_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_16_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_16_Value": {
+					"type": "float32",
+					"value": 1.5
+				}
+			}
+		},
+		"cafe5ef34d52d156": {
+			"parent": "cafe68bab981c660",
+			"name": "Mesh",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/geometry/male_reg_unique_bankrobber.wl2?/body.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		"cafe68bab981c660": {
+			"parent": "22ea5f8267450642",
+			"name": "DustSuit_HoodUp_body",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/geometry/male_reg_unique_bankrobber.wl2?/body.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafefc8b4df573d3"]
+				},
+				"ConstantVector1D_14_Value": {
+					"ConstantVector1D_14_Value": ["cafefc8b4df573d3"]
+				},
+				"ConstantVector1D_15_Value": {
+					"ConstantVector1D_15_Value": ["cafefc8b4df573d3"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafefc8b4df573d3"]
+				}
+			},
+			"propertyAliases": {
+				"ConstantVector1D_01_Value_1": [
+					{
+						"originalProperty": "ConstantVector1D_01_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"ConstantVector1D_03_Value": [
+					{
+						"originalProperty": "ConstantVector1D_03_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"ConstantVector1D_05_Value": [
+					{
+						"originalProperty": "ConstantVector1D_05_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"ConstantVector1D_13_Value": [
+					{
+						"originalProperty": "ConstantVector1D_13_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"ConstantVector1D_14_Value": [
+					{
+						"originalProperty": "ConstantVector1D_14_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"ConstantVector1D_15_Value": [
+					{
+						"originalProperty": "ConstantVector1D_15_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"ConstantVector1D_16_Value": [
+					{
+						"originalProperty": "ConstantVector1D_16_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"Diffuse_Color_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Color_01_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"Diffuse_Hue_Shift_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Hue_Shift_01_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"Diffuse_Saturation_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Saturation_01_Value",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"Texture2DNormal_01_1": [
+					{
+						"originalProperty": "Texture2DNormal_01",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"Texture2D_01_1": [
+					{
+						"originalProperty": "Texture2D_01",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"Texture2D_03_1": [
+					{
+						"originalProperty": "Texture2D_03",
+						"originalEntity": "cafefc8b4df573d3"
+					}
+				],
+				"m_pMeshResource": [
+					{
+						"originalProperty": "m_pMeshResource",
+						"originalEntity": "cafe5ef34d52d156"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZBodyPartEntity": "cafe5ef34d52d156",
+				"ZClothColliderGroupAspect": "cafe5ef34d52d156"
+			}
+		},
+		"cafe21744b3a6dcd": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Mask",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/geometry/male_reg_unique_bankrobber.wl2?/male_reg_mask_rabbit.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"cafefe944bd4d229": {
+			"parent": "cafe404838bd12d0",
+			"name": "Mesh",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/geometry/male_reg_unique_bankrobber.wl2?/hood.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"cafe404838bd12d0": {
+			"parent": "22ea5f8267450642",
+			"name": "DustSuit_HoodUp_Hood",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/raccoon/male_reg_unique_bankrobber/geometry/male_reg_unique_bankrobber.wl2?/hood.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafecc8723fbd8a2"]
+				},
+				"ConstantVector1D_14_Value": {
+					"ConstantVector1D_14_Value": ["cafecc8723fbd8a2"]
+				},
+				"ConstantVector1D_15_Value": {
+					"ConstantVector1D_15_Value": ["cafecc8723fbd8a2"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafecc8723fbd8a2"]
+				}
+			},
+			"propertyAliases": {
+				"ConstantVector1D_01_Value_1": [
+					{
+						"originalProperty": "ConstantVector1D_01_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"ConstantVector1D_03_Value": [
+					{
+						"originalProperty": "ConstantVector1D_03_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"ConstantVector1D_05_Value": [
+					{
+						"originalProperty": "ConstantVector1D_05_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"ConstantVector1D_13_Value": [
+					{
+						"originalProperty": "ConstantVector1D_13_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"ConstantVector1D_14_Value": [
+					{
+						"originalProperty": "ConstantVector1D_14_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"ConstantVector1D_15_Value": [
+					{
+						"originalProperty": "ConstantVector1D_15_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"ConstantVector1D_16_Value": [
+					{
+						"originalProperty": "ConstantVector1D_16_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"Diffuse_Color_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Color_01_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"Diffuse_Hue_Shift_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Hue_Shift_01_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"Diffuse_Saturation_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Saturation_01_Value",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"Texture2DNormal_01_1": [
+					{
+						"originalProperty": "Texture2DNormal_01",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"Texture2D_01_1": [
+					{
+						"originalProperty": "Texture2D_01",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"Texture2D_03_1": [
+					{
+						"originalProperty": "Texture2D_03",
+						"originalEntity": "cafecc8723fbd8a2"
+					}
+				],
+				"m_pMeshResource": [
+					{
+						"originalProperty": "m_pMeshResource",
+						"originalEntity": "cafefe944bd4d229"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZBodyPartEntity": "cafefe944bd4d229",
+				"ZClothColliderGroupAspect": "cafefe944bd4d229"
+			}
+		},
+		"cafe0db9f4cfeeed": {
+			"parent": "22ea5f8267450642",
+			"name": "base_eye",
+			"factory": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/materials/base_eye.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/materials/base_eye.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"EyeShader_01_IrisBrightness_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_IrisBrightness": {
+					"type": "float32",
+					"value": 2.0
+				},
+				"EyeShader_01_PupilSize_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_PupilSize": {
+					"type": "float32",
+					"value": 0.17000000178813934
+				},
+				"EyeShader_01_IrisHueShift_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_IrisHueShift": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"EyeShader_01_CorneaSpecularPower_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_CorneaSpecularPower": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"EyeShader_01_CorneaSpecularIntensity_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_CorneaSpecularIntensity": {
+					"type": "float32",
+					"value": 0.02500000037252903
+				},
+				"EyeShader_01_ScleraSpecularIntensity_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_ScleraSpecularIntensity": {
+					"type": "float32",
+					"value": 0.019999999552965164
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/textures/base_eyes.texture?/diffuse_47.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe9a560e50c9da": {
+			"parent": "22ea5f8267450642",
+			"name": "FX_Hitman_Wet_Logic_Character",
+			"factory": "0067CFB703A80787",
+			"blueprint": "00AA88C960CD2080",
+			"properties": {
+				"HeadMaterialToOverride": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009F7978C601815A",
+						"flag": "5F"
+					}
+				},
+				"HeadMaterialOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["22ea5f8267450642"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"HitmanWetness": {
+					"T": ["cafe0fba2ec31455", "cafe8665d0e51e0d", "cafe5b29de439fab", "cafe62fab93f4c7a"]
+				}
+			}
+		},
+		"cafe5b29de439fab": {
+			"parent": "cafe9a560e50c9da",
+			"name": "Lerp roughness fabric",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 1.0 },
+				"m_fT": { "type": "float32", "value": 0.0 },
+				"m_B": { "type": "float32", "value": 2.0 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_14_Value": [
+						"ca9e86cfdaed4c16",
+						"df28b22e2ba1029b",
+						"cafe68bab981c660",
+						"cafe68bab981c660",
+						"cafefc8b4df573d3",
+						"cafe5ef34d52d156",
+						"cafefe944bd4d229",
+						"cafe696dc229f835",
+						"cafe6f3cbf1d01ba",
+						"cafecc8723fbd8a2",
+						"cafe7339b1dffb25",
+						"cafe0db9f4cfeeed",
+						"cafe404838bd12d0",
+						"cafe7ec817c260e7",
+						"cafed771262a061a",
+						"cafea19671be1e9a",
+						"cafe21744b3a6dcd",
+						"cafe25182bc93132"
+					]
+				}
+			}
+		},
+		"cafe8665d0e51e0d": {
+			"parent": "cafe9a560e50c9da",
+			"name": "Lerp bumpmap",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_fT": { "type": "float32", "value": 0.0 },
+				"m_B": { "type": "float32", "value": 0.30000001192092896 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_06_Value": [
+						"ca9e86cfdaed4c16",
+						"df28b22e2ba1029b",
+						"cafe68bab981c660",
+						"cafe68bab981c660",
+						"cafefc8b4df573d3",
+						"cafe5ef34d52d156",
+						"cafefe944bd4d229",
+						"cafe696dc229f835",
+						"cafe6f3cbf1d01ba",
+						"cafecc8723fbd8a2",
+						"cafe7339b1dffb25",
+						"cafe0db9f4cfeeed",
+						"cafe404838bd12d0",
+						"cafe7ec817c260e7",
+						"cafed771262a061a",
+						"cafea19671be1e9a",
+						"cafe21744b3a6dcd",
+						"cafe25182bc93132"
+					]
+				}
+			}
+		},
+		"cafe62fab93f4c7a": {
+			"parent": "cafe9a560e50c9da",
+			"name": "Lerp roughness other",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": { "type": "float32", "value": 0.4000000059604645 },
+				"m_A": { "type": "float32", "value": 0.0 },
+				"m_fT": { "type": "float32", "value": 0.0 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_04_Value": [
+						"cafe7fe12e2f041e",
+						"cafe6f3cbf1d01ba",
+						"cafe0db9f4cfeeed",
+						"cafe21744b3a6dcd",
+						"df28b22e2ba1029b"
+					]
+				}
+			}
+		},
+		"cafe0fba2ec31455": {
+			"parent": "cafe9a560e50c9da",
+			"name": "Lerp albedo",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_fT": { "type": "float32", "value": 0.0 },
+				"m_B": { "type": "float32", "value": 0.20000000298023224 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_01_Value": [
+						"ca9e86cfdaed4c16",
+						"df28b22e2ba1029b",
+						"cafe68bab981c660",
+						"cafefc8b4df573d3",
+						"cafe5ef34d52d156",
+						"cafefe944bd4d229",
+						"cafe696dc229f835",
+						"cafe6f3cbf1d01ba",
+						"cafecc8723fbd8a2",
+						"cafe7339b1dffb25",
+						"cafe0db9f4cfeeed",
+						"cafe404838bd12d0",
+						"cafe7ec817c260e7",
+						"cafed771262a061a",
+						"cafea19671be1e9a",
+						"cafe21744b3a6dcd",
+						"cafe25182bc93132"
+					]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/philip/textures/male_reg_philip_01_tie_01.texture?/specular_f.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/philip/textures/male_reg_philip_01_tie_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_jacket.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_shirt.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/textures/male_reg_socks.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/textures/male_reg_socks.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/textures/male_reg_socks.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/geometry/male_reg_socks.wl2?/socks_cut_shoe.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_s3_head.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_s3_head.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_s3_head.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/suit_pants/textures/male_reg_suit_pants_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/suit_pants/textures/male_reg_suit_pants_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/belt/textures/male_reg_belt_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/belt/textures/male_reg_belt_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/belt/textures/male_reg_belt_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_jacket.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/_test/dagb/textures/male_reg_suit_jacket_stretch_01.texture?/normal_open_stretched.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/_test/antonk/fabrictile_test.texture?/height_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_jacket.texture?/normal_open.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_pants.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_pants.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_pants.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/geometry/male_reg_arms.wl2?/hands.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

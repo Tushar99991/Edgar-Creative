@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_RAMA_SUIT": {
+		"Guid": "df7b460b-dd4a-4862-9619-f6fdfba54a78",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "cbd0772c-0760-429a-b9c0-28cd562b6509",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_JAT_NOOB": {
+		"Guid": "6a52288a-5f79-497a-9109-cde8826e3d35",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "ee09e16f-c04b-4248-b28b-b7425c2da344",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

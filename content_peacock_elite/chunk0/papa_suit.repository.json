@@ -1,0 +1,13 @@
+{
+	"e274b2a4-a7e8-4a58-8aa3-80898149b9e6": {
+		"CommonName": "CHAR_Global_Hero_Papa_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_papa.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_PAPA_SUIT",
+		"Category": ""
+	}
+}

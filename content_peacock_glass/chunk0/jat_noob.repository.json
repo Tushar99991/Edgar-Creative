@@ -1,0 +1,13 @@
+{
+	"ee09e16f-c04b-4248-b28b-b7425c2da344": {
+		"CommonName": "CHAR_Global_Hero_Jat_Noob_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_JAT_NOOB_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_glass.jpg",
+		"ImageTransparent": "",
+		"Name": "UI_TOKEN_OUTFIT_HERO_JAT_NOOB_NAME",
+		"IsHitmanSuit": true,
+		"Category": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_JAT_NOOB"
+	}
+}

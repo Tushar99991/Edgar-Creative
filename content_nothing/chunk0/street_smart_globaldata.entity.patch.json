@@ -1,0 +1,259 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": ["275cabb54235420f", { "SetName": "CHARSET_Agent47_Street_Smart" }]
+		},
+		{
+			"SubEntityOperation": [
+				"275cabb54235420f",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_street_smart.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"275cabb54235420f",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_street_smart.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["2662d409d1c5bc39", { "SetName": "CHAR_Global_Hero_Street_Smart_M" }]
+		},
+		{
+			"SubEntityOperation": [
+				"2662d409d1c5bc39",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eSoundFootwearType",
+						"value": "EFWT_SNEAKERS"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2662d409d1c5bc39",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_sId",
+						"value": "12450eab-18a1-491c-9ae7-7952c7a4332c"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2662d409d1c5bc39",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_sCommonName",
+						"value": "CHAR_Global_Hero_Street_Smart_M"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2662d409d1c5bc39",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_sTitle",
+						"value": "Street Smart"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2662d409d1c5bc39",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Fallback"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2662d409d1c5bc39",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/12450eab-18a1-491c-9ae7-7952c7a4332c_hitman6_hero_street_smart_m_name_.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2662d409d1c5bc39",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/12450eab-18a1-491c-9ae7-7952c7a4332c_hitman6_hero_street_smart_m_description_.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe217269908aef",
+				{
+					"parent": "cafe00b29dcac7e3",
+					"name": "CHARSET_Agent47_SignatureSuit",
+					"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_signaturesuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_signaturesuit.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe70334163f509",
+				{
+					"parent": "cafe00b29dcac7e3",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe00b29dcac7e3"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe00b29dcac7e3",
+				{
+					"parent": "0ba8ea9278df2079",
+					"name": "HitmanSuit",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": {
+							"type": "EActorType",
+							"value": "eAT_Hitman"
+						},
+						"m_eSoundFootwearType": {
+							"type": "EHM5SoundFootwearType",
+							"value": "EFWT_LEATHER"
+						},
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe217269908aef"]
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "4fc9396e-2619-4e66-a51e-2bd366230da7"
+						},
+						"m_bCanCallForHelp": {
+							"type": "bool",
+							"value": true
+						},
+						"m_sCommonName": {
+							"type": "ZString",
+							"value": "HitmanSuit"
+						},
+						"m_sTitle": {
+							"type": "ZString",
+							"value": "Hitman Suit"
+						},
+						"m_eOutfitAICategory": {
+							"type": "EOutfitAICategory",
+							"value": "OAC_47Suit"
+						},
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/4fc9396e-2619-4e66-a51e-2bd366230da7_hitman6_hero_hitmansuit_m_name_.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/4fc9396e-2619-4e66-a51e-2bd366230da7_hitman6_hero_hitmansuit_m_description_.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_bHeroDisguiseAvailable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bIsHitmanSuit": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb539b495a4d0",
+				{
+					"parent": "cafe00b29dcac7e3",
+					"name": "Prof_Hero_SignatureSuit",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe00b29dcac7e3"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeab6a24e3e7ff",
+				{
+					"parent": "cafe00b29dcac7e3",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe00b29dcac7e3"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefdce82f0d763",
+				{
+					"parent": "cafe00b29dcac7e3",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe00b29dcac7e3"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

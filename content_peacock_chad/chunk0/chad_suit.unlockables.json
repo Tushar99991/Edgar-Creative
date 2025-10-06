@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_CHAD_SUIT": {
+		"Guid": "d2945f8b-6d05-473f-a20b-eb0fefb3acc7",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "e53c1033-6bc6-4847-87c5-c8eee9b10e10",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

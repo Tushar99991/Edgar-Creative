@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_HERO_ROLF_SUIT": {
+		"Guid": "cdfa351e-5533-4137-bf2e-a334b43da0df",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "dd7960b1-35a1-4d5b-8e42-561ee0699610",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

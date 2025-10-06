@@ -1,0 +1,13 @@
+{
+	"ed0e8e02-fe6f-43e3-896a-15751ec81baa": {
+		"CommonName": "CHAR_Global_Hero_Hem_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_HEM_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_helmut.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_HEM_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_HEM_SUIT",
+		"Category": ""
+	}
+}

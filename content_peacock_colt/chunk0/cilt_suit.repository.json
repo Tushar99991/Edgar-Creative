@@ -1,0 +1,13 @@
+{
+	"181193c0-1795-4d47-924f-b93c9a17474e": {
+		"CommonName": "CHAR_Global_Hero_Cilt_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_CILT_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_cilt.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_CILT_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_CILT_SUIT",
+		"Category": ""
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"a3afd1aa-427e-4cfa-9b9b-11585643cb4a": {
+		"CommonName": "CHAR_Global_Hero_Philo_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_PHILO_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_philosuit.jpg",
+		"ImageTransparent": " ",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_PHILO_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_PHILO_SUIT",
+		"Category": ""
+	}
+}

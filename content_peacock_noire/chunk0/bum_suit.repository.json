@@ -1,0 +1,13 @@
+{
+	"d726428a-2891-41f1-9909-9772ebd29326": {
+		"CommonName": "CHAR_Global_Hero_Bum_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_BUM_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_noire.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_BUM_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_BUM_SUIT",
+		"Category": ""
+	}
+}
