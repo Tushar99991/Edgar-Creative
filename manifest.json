@@ -12,7 +12,7 @@
 			"name": "Street Smart (In case you don't want to use replacer, Use it as it'll add another suit as Peaock)",
 			"type": "select",
 			"enabledByDefault": true,
-			"tooltip": "Does nothing to main suit except add another suit for peacock, you can choose this option if you dont wanna replace anything or you prefer Peacock.",
+			"tooltip": "Does nothing to main suit except add another suit for peacock, you can choose this option if you dont want to replace anything or you prefer Peacock.",
 			"contentFolders": ["content_nothing"],
 			"blobsFolders": ["blobs_nothing"],
 			"localisedLines": {
