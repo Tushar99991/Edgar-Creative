@@ -1,6 +1,6 @@
 {
-	"tempHash": "00031191BC9C02D8",
-	"tbluHash": "000FE3A75C1C125F",
+	"tempHash": "003060EACB0A00FA",
+	"tbluHash": "00590B1A8996FEEA",
 	"rootEntity": "2a83ce034db70324",
 	"entities": {
 		"f98f29170d08608a": {
@@ -24,7 +24,7 @@
 		},
 		"2a83ce034db70324": {
 			"parent": null,
-			"name": "CHARSET_Agent47_Street_Smart",
+			"name": "CHARSET_Agent47_Pune_Suit",
 			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -80,7 +80,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_street_smart_heroa_v0.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_pune_suit_heroa_v0.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}

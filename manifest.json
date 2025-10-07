@@ -402,6 +402,24 @@
 		},
 		{
 			"group": "Peacock Addon",
+			"name": "Corvo Black Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Corvo Black suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_peacock_corvo"],
+			"blobsFolders": ["blobs_peacock_corvo"],
+			"localisedLines": {
+				"00B9F0DFC37E0EBE": "UI_TOKEN_OUTFIT_HERO_PUNE_SUIT_NAME",
+				"001BE87CEC08F0DF": "UI_TOKEN_OUTFIT_HERO_PUNE_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_PUNE_SUIT_NAME": "Corvo Black Suit",
+					"UI_TOKEN_OUTFIT_HERO_PUNE_SUIT_DESC": "Corvo Black Suit for 47 from Mendoza's Mission."
+				}
+			}
+		},
+		{
+			"group": "Peacock Addon",
 			"name": "Motorcyclist Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the motorcyclist suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -440,6 +458,11 @@
 	"dependencies": [
 		{
 			"runtimeID": "003F97BE5CF6C3F7",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "002162829D6BDBD1",
 			"toChunk": 0,
 			"portFromChunk1": true
 		},
