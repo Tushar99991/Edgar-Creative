@@ -202,23 +202,6 @@
 			}
 		},
 		{
-			"name": "Disruptor Fur Coat Peacock Addon",
-			"type": "checkbox",
-			"tooltip": "Install the The Disruptor Fur Coat suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_conor"],
-			"blobsFolders": ["blobs_peacock_conor"],
-			"localisedLines": {
-				"007818D8DDAB9BF4": "UI_TOKEN_OUTFIT_HERO_CONOR_DRESS_NAME",
-				"0040D514F0846AB0": "UI_TOKEN_OUTFIT_HERO_CONOR_DRESS_DESC"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_CONOR_DRESS_NAME": "The Disruptor Fur Coat",
-					"UI_TOKEN_OUTFIT_HERO_CONOR_DRESS_DESC": "Bring out the inner bad boy with this flashy fur coat, red striped pants and white shoes to match. Tells the world that you know how to party, but 'don't you mess with me'."
-				}
-			}
-		},
-		{
 			"name": "Elite Guard Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the providene elite guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -249,40 +232,6 @@
 				"english": {
 					"UI_TOKEN_OUTFIT_HERO_PHILO_SUIT_NAME": "Philo Suit",
 					"UI_TOKEN_OUTFIT_HERO_PHILO_SUIT_DESC": "The Majestic Philo Suit with Sexy Hairstyle."
-				}
-			}
-		},
-		{
-			"name": "Bruce Lee suit Peacock Addon",
-			"type": "checkbox",
-			"tooltip": "Install the bruce lee's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_sheriff"],
-			"blobsFolders": ["blobs_peacock_sheriff"],
-			"localisedLines": {
-				"00B2D35309ABDC61": "UI_TOKEN_OUTFIT_HERO_BRUCO_NORM_NAME",
-				"0068F7F2B9C20838": "UI_TOKEN_OUTFIT_HERO_BRUCO_NORM_DESC"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_BRUCO_NORM_NAME": "The Yellow Tracksuit",
-					"UI_TOKEN_OUTFIT_HERO_BRUCO_NORM_DESC": "The outfit of Bruce Lee stars as Agent Lee, who is an operative aiming to infiltrate the Concord Union, a powerful criminal syndicate based in Hong Kong."
-				}
-			}
-		},
-		{
-			"name": "Bruce Lee suit with hairstyle Peacock Addon",
-			"type": "checkbox",
-			"tooltip": "Install the bruce lee's outfit with hairstyle as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_hair_sheriff"],
-			"blobsFolders": ["blobs_peacock_hair_sheriff"],
-			"localisedLines": {
-				"00C183D0F14AFB95": "UI_TOKEN_OUTFIT_HERO_BRUCO_HAIR_NAME",
-				"00F6D89A8A618C39": "UI_TOKEN_OUTFIT_HERO_BRUCO_HAIR_DESC"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_BRUCO_HAIR_NAME": "Hairy & Yellow Tracksuit",
-					"UI_TOKEN_OUTFIT_HERO_BRUCO_HAIR_DESC": "The outfit of Bruce Lee stars as Agent Lee, who is an operative aiming to infiltrate the Concord Union, a powerful criminal syndicate based in Hong Kong."
 				}
 			}
 		},
