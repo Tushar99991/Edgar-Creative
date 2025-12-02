@@ -4,8 +4,8 @@
 	"name": "A Creative Outfits Collection",
 	"description": "The collection of several Outfits.",
 	"authors": ["Edgar"],
-	"frameworkVersion": "2.33.31",
-	"version": "1.6.0",
+	"frameworkVersion": "2.33.33",
+	"version": "1.7.0",
 	"options": [
 		{
 			"group": "Replacer",
@@ -134,6 +134,48 @@
 			}
 		},
 		{
+			"name": "Lead Actor Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Lead Actor's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_kota"
+			],
+			"blobsFolders": [
+				"blobs_peacock_kota"
+			],
+			"localisedLines": {
+				"0014E35CFFCD1D57": "UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_NAME",
+				"000F2B083F676101": "UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_NAME": "Actor 47",
+					"UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_DESC": "This unique outfit of Lead Actor from Mumbai's Mission."
+				}
+			}
+		},
+		{
+			"name": "Leopard 47 Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Majestic Leopard Suit as a Peacock/Offline addon (does not replace existing suits. Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_gand"
+			],
+			"blobsFolders": [
+				"blobs_peacock_gand"
+			],
+			"localisedLines": {
+				"00131A826CE74EC8": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_NAME",
+				"009B755E520F0E53": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_COMA_SUIT_NAME": "Leopard Suit",
+					"UI_TOKEN_OUTFIT_HERO_COMA_SUIT_DESC": "The Majestic Leopard Suit"
+				}
+			}
+		},
+		{
 			"name": "Orange Variant of Journalist suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Orange's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -164,6 +206,23 @@
 				"english": {
 					"UI_TOKEN_OUTFIT_HERO_MIT_SUIT_NAME": "Revolutionary Suit",
 					"UI_TOKEN_OUTFIT_HERO_MIT_SUIT_DESC": "General Murillo Suit from Elusive Target Mission of Santa Fortuna."
+				}
+			}
+		},
+		{
+			"name": "Bellini Bodyguard Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Belini Bodyguard Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_kaju"],
+			"blobsFolders": ["blobs_kaju"],
+			"localisedLines": {
+				"00ED5D75EB7C3CBA": "UI_TOKEN_OUTFIT_HERO_KAJUX_SUIT_NAME",
+				"00586EFDA1CDC224": "UI_TOKEN_OUTFIT_HERO_KAJUX_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_KAJUX_SUIT_NAME": "Bellini Bodyguard Suit",
+					"UI_TOKEN_OUTFIT_HERO_KAJUX_SUIT_DESC": "Bodyguard Suit from Slim Shady Elusive Target Mission of Hokkaido."
 				}
 			}
 		},
@@ -338,6 +397,23 @@
 			}
 		},
 		{
+			"name": "Bodyguard Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Bodyguard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_paju"],
+			"blobsFolders": ["blobs_paju"],
+			"localisedLines": {
+				"0084C859BE2C7E5E": "UI_TOKEN_OUTFIT_HERO_PAJUX_SUIT_NAME",
+				"00E4E9FA6715AE3D": "UI_TOKEN_OUTFIT_HERO_PAJUX_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_PAJUX_SUIT_NAME": "Bodyguard 47",
+					"UI_TOKEN_OUTFIT_HERO_PAJUX_SUIT_DESC": "This outfit is from Hokkaido's Celebrity ET Mission."
+				}
+			}
+		},
+		{
 			"name": "Motorcyclist Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the motorcyclist suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -478,6 +554,11 @@
 			"portFromChunk1": true
 		},
 		{
+			"runtimeID": "005C15CEA47E23F5",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
 			"runtimeID": "0035AFD562EAF50E",
 			"toChunk": 0,
 			"portFromChunk1": true
@@ -528,6 +609,11 @@
 			"portFromChunk1": true
 		},
 		{
+			"runtimeID": "00D729E2E2EFEA60",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
 			"runtimeID": "0003B2C4A51F53A3",
 			"toChunk": 0,
 			"portFromChunk1": true
@@ -574,6 +660,11 @@
 		},
 		{
 			"runtimeID": "004AE40C64125C4E",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "001225F04AB3CABE",
 			"toChunk": 0,
 			"portFromChunk1": true
 		},
