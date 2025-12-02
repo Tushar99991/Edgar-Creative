@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.33",
-	"version": "1.7.0",
+	"version": "1.8.0",
 	"options": [
 		{
 			"group": "Replacer",
@@ -137,12 +137,8 @@
 			"name": "Lead Actor Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Lead Actor's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_peacock_kota"
-			],
-			"blobsFolders": [
-				"blobs_peacock_kota"
-			],
+			"contentFolders": ["content_peacock_kota"],
+			"blobsFolders": ["blobs_peacock_kota"],
 			"localisedLines": {
 				"0014E35CFFCD1D57": "UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_NAME",
 				"000F2B083F676101": "UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_DESC"
@@ -158,12 +154,8 @@
 			"name": "Leopard 47 Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Majestic Leopard Suit as a Peacock/Offline addon (does not replace existing suits. Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_peacock_gand"
-			],
-			"blobsFolders": [
-				"blobs_peacock_gand"
-			],
+			"contentFolders": ["content_peacock_gand"],
+			"blobsFolders": ["blobs_peacock_gand"],
 			"localisedLines": {
 				"00131A826CE74EC8": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_NAME",
 				"009B755E520F0E53": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_DESC"

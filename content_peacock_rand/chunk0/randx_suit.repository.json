@@ -1,1 +1,13 @@
-{"2c9ef51f-ddfe-4857-be8f-e6e91e92ef36":{"CommonName":"CHAR_Global_Hero_Randx_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_rand.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_RANDX_SUIT","Category":""}}
+{
+	"2c9ef51f-ddfe-4857-be8f-e6e91e92ef36": {
+		"CommonName": "CHAR_Global_Hero_Randx_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_rand.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_RANDX_SUIT",
+		"Category": ""
+	}
+}
