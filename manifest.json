@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.33",
-	"version": "1.9.0",
+	"version": "1.10.0",
 	"options": [
 		{
 			"group": "Replacer",

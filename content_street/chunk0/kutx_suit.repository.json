@@ -1,1 +1,13 @@
-{"3987a3ab-5819-40a1-82ca-3e3c12fb3d19":{"CommonName":"CHAR_Global_Hero_Kutx_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_street.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_KUTX_SUIT","Category":""}}
+{
+	"3987a3ab-5819-40a1-82ca-3e3c12fb3d19": {
+		"CommonName": "CHAR_Global_Hero_Kutx_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_street.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_KUTX_SUIT",
+		"Category": ""
+	}
+}

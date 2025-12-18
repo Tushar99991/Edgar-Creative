@@ -1,1 +1,24 @@
-{"TOKEN_OUTFIT_HERO_KUTX_SUIT":{"Guid":"6626b813-9652-494a-97f7-b661cc0eca07","Type":"disguise","Subtype":"casual","ImageId":"","RMTPrice":-1,"GamePrice":-1,"IsPurchasable":false,"IsPublished":true,"IsDroppable":false,"Capabilities":[],"Qualities":{},"Properties":{"Quality":4,"Rarity":"common","LoadoutSlot":"disguise","IsConsumable":false,"RepositoryId":"3987a3ab-5819-40a1-82ca-3e3c12fb3d19","OrderIndex":21},"Rarity":"common"}}
+{
+	"TOKEN_OUTFIT_HERO_KUTX_SUIT": {
+		"Guid": "6626b813-9652-494a-97f7-b661cc0eca07",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "3987a3ab-5819-40a1-82ca-3e3c12fb3d19",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}
