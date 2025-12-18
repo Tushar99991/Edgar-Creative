@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.33",
-	"version": "1.8.0",
+	"version": "1.9.0",
 	"options": [
 		{
 			"group": "Replacer",
@@ -147,6 +147,23 @@
 				"english": {
 					"UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_NAME": "Actor 47",
 					"UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_DESC": "This unique outfit of Lead Actor from Mumbai's Mission."
+				}
+			}
+		},
+		{
+			"name": "Street Guard (Masked) Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the street guard (masked) suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_street"],
+			"blobsFolders": ["blobs_street"],
+			"localisedLines": {
+				"00E81275A1315528": "UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_NAME",
+				"002B2220B93A1EEF": "UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_NAME": "Street Guard 47",
+					"UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_DESC": "A Street Guard outfit for 47 from Santa Fortuna."
 				}
 			}
 		},
@@ -601,6 +618,11 @@
 			"portFromChunk1": true
 		},
 		{
+			"runtimeID": "000A72985611794B",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
 			"runtimeID": "00D729E2E2EFEA60",
 			"toChunk": 0,
 			"portFromChunk1": true
@@ -641,7 +663,22 @@
 			"portFromChunk1": true
 		},
 		{
+			"runtimeID": "00FF2BE1F7072413",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
 			"runtimeID": "009B5182C6638B75",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00027D8E1E0E2675",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0079AB784346C878",
 			"toChunk": 0,
 			"portFromChunk1": true
 		},
