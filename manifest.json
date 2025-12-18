@@ -19,7 +19,7 @@
 			"name": "Journalist's Suit (Replacer)",
 			"type": "select",
 			"enabledByDefault": false,
-			"tooltip": "Replaces your Cowboy Suit (Themed Category) with the Journalist Suit.",
+			"tooltip": "Replaces your Cowboy Suit (Themed Category) with the decent Journalist Suit.",
 			"contentFolders": ["content"],
 			"blobsFolders": ["blobs"],
 			"localisationOverrides": {
