@@ -12,7 +12,7 @@
 			"name": "Off",
 			"type": "select",
 			"enabledByDefault": true,
-			"tooltip": "Does not so nothing (if you don't wanna replaces anything.)"
+			"tooltip": "Does not do anything (if you don't wanna replaces anything.)"
 		},
 		{
 			"group": "Replacer",
