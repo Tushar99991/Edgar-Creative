@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.33",
-	"version": "1.10.1",
+	"version": "1.11.0",
 	"options": [
 		{
 			"group": "Replacer",
@@ -765,15 +765,15 @@
 			"portFromChunk1": true
 		},
 		{
-            "runtimeID": "00914907B1B0CB49",
-            "toChunk": 0,
-            "portFromChunk1": true
-        },
-        {
-            "runtimeID": "00D5FC1211CEF4AA",
-            "toChunk": 0,
-            "portFromChunk1": true
-        },
+			"runtimeID": "00914907B1B0CB49",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00D5FC1211CEF4AA",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "007618601830CB8F",
 			"toChunk": 0,
