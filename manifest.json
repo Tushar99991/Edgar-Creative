@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.33",
-	"version": "1.10.0",
+	"version": "1.10.1",
 	"options": [
 		{
 			"group": "Replacer",
@@ -423,6 +423,23 @@
 			}
 		},
 		{
+			"name": "Smart Raven Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the smart raven suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_peacock_kaxt"],
+			"blobsFolders": ["blobs_peacock_kaxt"],
+			"localisedLines": {
+				"00715F6E32B89DC2": "UI_TOKEN_OUTFIT_HERO_KAXT_SUIT_NAME",
+				"0073F75D8A5BF822": "UI_TOKEN_OUTFIT_HERO_KAXT_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_KAXT_SUIT_NAME": "Smart Raven 47",
+					"UI_TOKEN_OUTFIT_HERO_KAXT_SUIT_DESC": "A Unique Raven Outfit for 47."
+				}
+			}
+		},
+		{
 			"name": "Motorcyclist Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the motorcyclist suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -693,6 +710,16 @@
 			"portFromChunk1": true
 		},
 		{
+			"runtimeID": "00022A3DB5F89F12",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "000806922A18B55B",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
 			"runtimeID": "001225F04AB3CABE",
 			"toChunk": 0,
 			"portFromChunk1": true
@@ -738,7 +765,22 @@
 			"portFromChunk1": true
 		},
 		{
+            "runtimeID": "00914907B1B0CB49",
+            "toChunk": 0,
+            "portFromChunk1": true
+        },
+        {
+            "runtimeID": "00D5FC1211CEF4AA",
+            "toChunk": 0,
+            "portFromChunk1": true
+        },
+		{
 			"runtimeID": "007618601830CB8F",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0003F12120E7B74F",
 			"toChunk": 0,
 			"portFromChunk1": true
 		},
