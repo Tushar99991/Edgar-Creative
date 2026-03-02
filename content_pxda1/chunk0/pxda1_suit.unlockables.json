@@ -1,1 +1,24 @@
-{"TOKEN_OUTFIT_HERO_PXDA1_SUIT":{"Guid":"465edb56-c729-48a4-a23d-75bb629f5920","Type":"disguise","Subtype":"casual","ImageId":"","RMTPrice":-1,"GamePrice":-1,"IsPurchasable":false,"IsPublished":true,"IsDroppable":false,"Capabilities":[],"Qualities":{},"Properties":{"Quality":4,"Rarity":"common","LoadoutSlot":"disguise","IsConsumable":false,"RepositoryId":"2b2d57d9-b553-48a6-b1af-92aeb86473fe","OrderIndex":21},"Rarity":"common"}}
+{
+	"TOKEN_OUTFIT_HERO_PXDA1_SUIT": {
+		"Guid": "465edb56-c729-48a4-a23d-75bb629f5920",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "2b2d57d9-b553-48a6-b1af-92aeb86473fe",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

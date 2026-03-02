@@ -6,4 +6,4 @@ The collection of several Outfits.
 
 ---
 
-`Edgar.Creative` v1.11.0, by Edgar. This README was automatically generated from the mod's manifest.
+`Edgar.Creative` v1.12.0, by Edgar. This README was automatically generated from the mod's manifest.
