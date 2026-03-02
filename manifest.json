@@ -83,6 +83,40 @@
 			}
 		},
 		{
+			"name": "Ether Hazmat White Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Ether Hazmat Suit White version as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_kalxa"],
+			"blobsFolders": ["blobs_kalxa"],
+			"localisedLines": {
+				"00E7B4C2B2D296F3": "UI_TOKEN_OUTFIT_HERO_KALXA1_SUIT_NAME",
+				"008B73D44C81309B": "UI_TOKEN_OUTFIT_HERO_KALXA1_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_KALXA1_SUIT_NAME": "Ether Leader Hazmat Suit",
+					"UI_TOKEN_OUTFIT_HERO_KALXA1_SUIT_DESC": "Ether Leader Hazmat Suit for 47."
+				}
+			}
+		},
+		{
+			"name": "Ether Hazmat Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Ether Hazmat Suit version as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_pxda1"],
+			"blobsFolders": ["blobs_pxda1"],
+			"localisedLines": {
+				"00E5A0F9602E7ED7": "UI_TOKEN_OUTFIT_HERO_PXDA1_SUIT_NAME",
+				"0012154F675B4634": "UI_TOKEN_OUTFIT_HERO_PXDA1_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_PXDA1_SUIT_NAME": "Ether Hazmat Suit",
+					"UI_TOKEN_OUTFIT_HERO_PXDA1_SUIT_DESC": "Ether Hazmat Suit for 47."
+				}
+			}
+		},
+		{
 			"name": "Journalist suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Journalist's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -509,6 +543,16 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "005DD196B3D37A59",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00707A44AD5E8AD7",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "00768E0FD8C637CE",
 			"toChunk": 0,
