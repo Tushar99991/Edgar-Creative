@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.35",
-	"version": "1.12.0",
+	"version": "1.13.0",
 	"options": [
 		{
 			"group": "Replacer",
@@ -100,6 +100,23 @@
 			}
 		},
 		{
+			"name": "DJ Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the DJ Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_dj"],
+			"blobsFolders": ["blobs_dj"],
+			"localisedLines": {
+				"00D9A984870DD852": "UI_TOKEN_OUTFIT_HERO_ZDXA_SUIT_NAME",
+				"00C3AF04CF77734D": "UI_TOKEN_OUTFIT_HERO_ZDXA_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_ZDXA_SUIT_NAME": "DJ 47",
+					"UI_TOKEN_OUTFIT_HERO_ZDXA_SUIT_DESC": "DJ Suit for 47."
+				}
+			}
+		},
+		{
 			"name": "Ether Hazmat Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Ether Hazmat Suit version as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -130,6 +147,23 @@
 				"english": {
 					"UI_TOKEN_OUTFIT_HERO_JOJI_SUIT_NAME": "Journalist 47",
 					"UI_TOKEN_OUTFIT_HERO_JOJI_SUIT_DESC": "The outfit of Journalist from Dubai Mission."
+				}
+			}
+		},
+		{
+			"name": "Ted Mendez suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Ted Mendez's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_ted"],
+			"blobsFolders": ["blobs_ted"],
+			"localisedLines": {
+				"00364CCD819FE675": "UI_TOKEN_OUTFIT_HERO_LSXP_SUIT_NAME",
+				"000C85EA7050592A": "UI_TOKEN_OUTFIT_HERO_LSXP_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_LSXP_SUIT_NAME": "Ted Mendez 47",
+					"UI_TOKEN_OUTFIT_HERO_LSXP_SUIT_DESC": "The outfit of Ted Mendez from Miami Mission."
 				}
 			}
 		},
@@ -544,6 +578,11 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "00A3372189EF9B7D",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
 			"runtimeID": "005DD196B3D37A59",
 			"toChunk": 0,
 			"portFromChunk1": true
@@ -615,6 +654,11 @@
 		},
 		{
 			"runtimeID": "004C796704EC6079",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00E738518F9F1D7A",
 			"toChunk": 0,
 			"portFromChunk1": true
 		},
