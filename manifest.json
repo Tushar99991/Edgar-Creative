@@ -4,15 +4,15 @@
 	"name": "A Creative Outfits Collection",
 	"description": "The collection of several Outfits.",
 	"authors": ["Edgar"],
-	"frameworkVersion": "2.33.40",
-	"version": "1.14.0",
+	"frameworkVersion": "2.33.35",
+	"version": "1.13.0",
 	"options": [
 		{
 			"group": "Replacer",
 			"name": "Off",
 			"type": "select",
 			"enabledByDefault": true,
-			"tooltip": "Does not do anything (if you don't want to replace anything.)"
+			"tooltip": "Does not do anything (if you don't wanna replace anything.)"
 		},
 		{
 			"group": "Replacer",
@@ -79,6 +79,23 @@
 						"798452684": "This outfit is inspired from L.A. Noire.",
 						"946160713": "Noire 47"
 					}
+				}
+			}
+		},
+		{
+			"name": "Juan Cortazar suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Juan Cortazar's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_juan"],
+			"blobsFolders": ["blobs_juan"],
+			"localisedLines": {
+				"00DC824E7F216FF7": "UI_TOKEN_OUTFIT_HERO_CTXTN_SUIT_NAME",
+				"006776DC00F32C79": "UI_TOKEN_OUTFIT_HERO_CTXTN_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_CTXTN_SUIT_NAME": "Juan Cortazar 47",
+					"UI_TOKEN_OUTFIT_HERO_CTXTN_SUIT_DESC": "The outfit of Juan Cortazar from Mendoza Mission."
 				}
 			}
 		},
@@ -577,6 +594,11 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "00133658F35C666E",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "00A3372189EF9B7D",
 			"toChunk": 0,
