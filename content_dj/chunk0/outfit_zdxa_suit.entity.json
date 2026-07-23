@@ -149,7 +149,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafe8d5bc995ed7c", "cafe37d285bd14f9", "cafe5702e72de936", "cafe9b13fe3b4bd8"]
+					"T": [
+						"cafe8d5bc995ed7c",
+						"cafe37d285bd14f9",
+						"cafe5702e72de936",
+						"cafe9b13fe3b4bd8"
+					]
 				}
 			}
 		},
@@ -239,9 +244,6 @@
 						"cafe5c96dae0cd47",
 						"cafe6d2334d79bbe",
 						"cafe5899cafe729e",
-						"cafe7e4f4a534773",
-						"cafe2dd7123fc929",
-						"cafe4f9269ab4159",
 						"cafe027f75946003",
 						"cafe24b44da08acb",
 						"cafed12904e153ee",
@@ -250,8 +252,6 @@
 						"cafe654f2464edc3",
 						"cafe0c9d63caa6bc",
 						"cafe205caaa5046f",
-						"cafeae8b3caa189e",
-						"cafe350e00b39470",
 						"cafe54ab1636b2cb"
 					]
 				}

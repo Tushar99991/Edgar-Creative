@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Edgar.Creative",
 	"name": "A Creative Outfits Collection",
-	"description": "The collection of several Outfits.",
+	"description": "The collection of several Outfits including unique designs.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.40",
 	"version": "1.15.0",
@@ -79,6 +79,40 @@
 						"798452684": "This outfit is inspired from L.A. Noire.",
 						"946160713": "Noire 47"
 					}
+				}
+			}
+		},
+		{
+			"name": "Siberian Tiger suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Siberian Tiger's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_falcon"],
+			"blobsFolders": ["blobs_falcon"],
+			"localisedLines": {
+				"00404829B6284AF2": "UI_TOKEN_OUTFIT_HERO_LP1TR_SUIT_NAME",
+				"00422E0E602FC2C4": "UI_TOKEN_OUTFIT_HERO_LP1TR_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_LP1TR_SUIT_NAME": "Siberian Tiger",
+					"UI_TOKEN_OUTFIT_HERO_LP1TR_SUIT_DESC": "The outfit of Siberian Tiger Elite Guard from Siberia Mission."
+				}
+			}
+		},
+		{
+			"name": "Siberian Prison Guard suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Siberian Prison Guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_sib"],
+			"blobsFolders": ["blobs_sib"],
+			"localisedLines": {
+				"00E367E8E7A48E9B": "UI_TOKEN_OUTFIT_HERO_CR1PF_SUIT_NAME",
+				"00D5A9768CFECF34": "UI_TOKEN_OUTFIT_HERO_CR1PF_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_CR1PF_SUIT_NAME": "Siberian Guard",
+					"UI_TOKEN_OUTFIT_HERO_CR1PF_SUIT_DESC": "The outfit of Prison Guard from Siberia Mission."
 				}
 			}
 		},
@@ -594,6 +628,16 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "009388BC92CE4CC4",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00FF2BE1F7072413",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "00133658F35C666E",
 			"toChunk": 0,
