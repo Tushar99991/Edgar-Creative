@@ -4,8 +4,8 @@
 	"name": "A Creative Outfits Collection",
 	"description": "The collection of several Outfits including unique designs.",
 	"authors": ["Edgar"],
-	"frameworkVersion": "2.33.40",
-	"version": "1.15.0",
+	"frameworkVersion": "2.33.41",
+	"version": "1.16.0",
 	"options": [
 		{
 			"group": "Replacer",

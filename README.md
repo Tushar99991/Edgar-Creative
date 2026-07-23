@@ -1,9 +1,9 @@
 # A Creative Outfits Collection
 
-The collection of several Outfits.
+The collection of several Outfits including unique designs.
 
 [Install](https://hitman-resources.netlify.app/smf-install-link/https://github.com/Tushar99991/Edgar-Creative/releases/latest/download/mod.framework.zip) | [Download](https://github.com/Tushar99991/Edgar-Creative/releases/latest/download/mod.framework.zip)
 
 ---
 
-`Edgar.Creative` v1.15.0, by Edgar. This README was automatically generated from the mod's manifest.
+`Edgar.Creative` v1.16.0, by Edgar. This README was automatically generated from the mod's manifest.
