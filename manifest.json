@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits including unique designs.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.41",
-	"version": "1.16.0",
+	"version": "1.17.0",
 	"options": [
 		{
 			"group": "Replacer",
@@ -86,12 +86,8 @@
 			"name": "Vampire Magician Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Vampire Magician's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_peacock_rand"
-			],
-			"blobsFolders": [
-				"blobs_peacock_rand"
-			],
+			"contentFolders": ["content_peacock_rand"],
+			"blobsFolders": ["blobs_peacock_rand"],
 			"localisedLines": {
 				"0044E10B03A00AEC": "UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_NAME",
 				"00C17FA73E649624": "UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_DESC"
