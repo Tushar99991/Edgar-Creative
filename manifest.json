@@ -83,6 +83,27 @@
 			}
 		},
 		{
+			"name": "Vampire Magician Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Vampire Magician's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_rand"
+			],
+			"blobsFolders": [
+				"blobs_peacock_rand"
+			],
+			"localisedLines": {
+				"0044E10B03A00AEC": "UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_NAME",
+				"00C17FA73E649624": "UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_NAME": "Magician 47",
+					"UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_DESC": "This unique outfit of Vampire Magician from Paris's Mission."
+				}
+			}
+		},
+		{
 			"name": "Siberian Tiger suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Siberian Tiger's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -714,6 +735,11 @@
 			"portFromChunk1": true
 		},
 		{
+			"runtimeID": "006265A9D680EBEE",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
 			"runtimeID": "00859FBB8D23A3EF",
 			"toChunk": 0,
 			"portFromChunk1": true
@@ -735,6 +761,11 @@
 		},
 		{
 			"runtimeID": "005C15CEA47E23F5",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00C47ADEA7854D98",
 			"toChunk": 0,
 			"portFromChunk1": true
 		},

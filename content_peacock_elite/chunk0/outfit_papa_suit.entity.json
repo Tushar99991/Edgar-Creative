@@ -750,7 +750,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafeaa346cd9e25c", "cafe9f6751cf91a8", "cafe22f53e08929d", "cafe3c85a06d9817"]
+					"T": [
+						"cafeaa346cd9e25c",
+						"cafe9f6751cf91a8",
+						"cafe22f53e08929d",
+						"cafe3c85a06d9817"
+					]
 				}
 			}
 		},
@@ -1101,7 +1106,7 @@
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/textures/male_reg_lab_guard_01_sweater_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
+						"resource": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/textures/male_reg_lab_guard_01_sweater_01_s3.texture?/diffuse_white.tex](ascolormap).pc_tex",
 						"flag": "5F"
 					}
 				},
