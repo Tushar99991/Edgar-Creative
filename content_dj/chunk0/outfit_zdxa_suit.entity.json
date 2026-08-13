@@ -149,7 +149,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafe8d5bc995ed7c", "cafe37d285bd14f9", "cafe5702e72de936", "cafe9b13fe3b4bd8"]
+					"T": [
+						"cafe8d5bc995ed7c",
+						"cafe37d285bd14f9",
+						"cafe5702e72de936",
+						"cafe9b13fe3b4bd8"
+					]
 				}
 			}
 		},
@@ -180,6 +185,7 @@
 						"cafe883f07ca4a64",
 						"cafe654f2464edc3",
 						"cafe0c9d63caa6bc",
+						"cafe2a3bbf1d0a97",
 						"cafe205caaa5046f",
 						"cafeae8b3caa189e",
 						"cafe350e00b39470",
@@ -207,6 +213,7 @@
 						"cafe7e4f4a534773",
 						"cafe2dd7123fc929",
 						"cafe4f9269ab4159",
+						"cafe2a3bbf1d0a97",
 						"cafe027f75946003",
 						"cafe24b44da08acb",
 						"cafed12904e153ee",
@@ -242,6 +249,7 @@
 						"cafe027f75946003",
 						"cafe24b44da08acb",
 						"cafed12904e153ee",
+						"cafe2a3bbf1d0a97",
 						"cafeb5f0f5ff3769",
 						"cafe883f07ca4a64",
 						"cafe654f2464edc3",
@@ -271,6 +279,7 @@
 						"cafe7e4f4a534773",
 						"cafe2dd7123fc929",
 						"cafe4f9269ab4159",
+						"cafe2a3bbf1d0a97",
 						"cafe027f75946003",
 						"cafe24b44da08acb",
 						"cafed12904e153ee",
@@ -332,12 +341,12 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "cafeae8b3caa189e",
+					"value": null,
 					"postInit": true
 				},
 				"m_rLinkedProxyEntity": {
 					"type": "SEntityTemplateReference",
-					"value": "22ea5f8267450642",
+					"value": null,
 					"postInit": true
 				}
 			}
@@ -772,6 +781,66 @@
 						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/pants/geometry/male_reg_pants.wl2?/pants_churidarsalwar_cut_shorts.weightedprim](bodypart).pc_weightedprim",
 						"flag": "5F"
 					}
+				}
+			}
+		},
+		"cafe2a3bbf1d0a97": {
+			"parent": "cafeae8b3caa189e",
+			"name": "glasses_aviator_fullframe_bridge_big",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_eyewear_prim.template?/glasses_aviator_fullframe_bridge_big.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_eyewear_prim.template?/glasses_aviator_fullframe_bridge_big.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 8.432498420782169,
+							"y": 89.60568763967893,
+							"z": 157.06344769694903
+						},
+						"position": {
+							"x": 0.09177400171756744,
+							"y": 0.02967200055718422,
+							"z": -0.000024000000848900527
+						}
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/accessories/textures/male_reg_acc_aviators.texture?/specular_brass.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9630510210990906,
+						"y": 0.8126879930496216,
+						"z": 0.9629259705543518
+					}
+				},
+				"Diffuse_Tint_Value": {
+					"type": "SColorRGB",
+					"value": "#f78fb9"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/accessories/textures/male_reg_acc_aviators.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeae8b3caa189e",
+					"postInit": true
+				},
+				"m_rLinkedProxyEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
 				}
 			}
 		}
