@@ -113,7 +113,8 @@
 						"cafe7ee201d7e26d",
 						"cafe83e3200d4883",
 						"df28b22e2ba1029b",
-						"cafef7475f025748",
+						"cafeeb2c91385754",
+						"cafe28bef9c2c288",
 						"cafea3a1d59a8221",
 						"cafe393763d2ec82",
 						"cafe7ee51601c2a2"
@@ -155,7 +156,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafe26f9bb049e32", "cafe4c7f42b43169", "cafe62aa50ef130b", "cafe529919888065"]
+					"T": [
+						"cafe26f9bb049e32",
+						"cafe4c7f42b43169",
+						"cafe62aa50ef130b",
+						"cafe529919888065"
+					]
 				}
 			}
 		},
@@ -174,6 +180,9 @@
 					"ConstantVector1D_14_Value": [
 						"ca9e86cfdaed4c16",
 						"cafe87023a937380",
+						"cafeeb2c91385754",
+						"cafe969704e98589",
+						"cafe28bef9c2c288",
 						"cafe7c3d298c2a85",
 						"cafe83e3200d4883",
 						"cafef7475f025748",
@@ -205,6 +214,9 @@
 						"cafe7c3d298c2a85",
 						"cafea3a1d59a8221",
 						"cafe83e3200d4883",
+						"cafeeb2c91385754",
+						"cafe969704e98589",
+						"cafe28bef9c2c288",
 						"cafef7475f025748",
 						"df28b22e2ba1029b",
 						"cafef1487cafe0d2",
@@ -234,6 +246,9 @@
 						"cafe7c3d298c2a85",
 						"cafe83e3200d4883",
 						"cafef7475f025748",
+						"cafeeb2c91385754",
+						"cafe969704e98589",
+						"cafe28bef9c2c288",
 						"df28b22e2ba1029b",
 						"cafea3a1d59a8221",
 						"cafef1487cafe0d2",
@@ -260,6 +275,9 @@
 						"ca9e86cfdaed4c16",
 						"cafe87023a937380",
 						"cafe7c3d298c2a85",
+						"cafeeb2c91385754",
+						"cafe969704e98589",
+						"cafe28bef9c2c288",
 						"cafe83e3200d4883",
 						"cafef7475f025748",
 						"df28b22e2ba1029b",
@@ -491,6 +509,198 @@
 					"type": "SColorRGB",
 					"value": "#002D03"
 				}
+			}
+		},
+		"cafe969704e98589": {
+			"parent": "cafeeb2c91385754",
+			"name": "balaclava_1hole",
+			"factory": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/materials/balaclava_1hole.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/materials/balaclava_1hole.mi].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#525252"
+				},
+				"Diffuse_Saturation_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Diffuse_Hue_Shift_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_03_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/textures/balaclava_1hole.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/textures/balaclava_1hole.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/textures/balaclava_1hole.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeeb2c91385754"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe28bef9c2c288": {
+			"parent": "cafeeb2c91385754",
+			"name": "Mesh",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/geometry/male_reg_headwear_skinned.wl2?/balaclava_1hole.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"cafeeb2c91385754": {
+			"parent": "22ea5f8267450642",
+			"name": "Balaclava_1Hole",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value_2": {
+					"type": "SColorRGB",
+					"value": "#525252"
+				},
+				"Diffuse_Saturation_01_Value_2": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Diffuse_Hue_Shift_01_Value_1": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/geometry/male_reg_headwear_skinned.wl2?/balaclava_1hole.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"propertyAliases": {
+				"ConstantVector1D_01_Value_2": [
+					{
+						"originalProperty": "ConstantVector1D_01_Value",
+						"originalEntity": "cafe969704e98589"
+					}
+				],
+				"ConstantVector1D_03_Value_1": [
+					{
+						"originalProperty": "ConstantVector1D_03_Value",
+						"originalEntity": "cafe969704e98589"
+					}
+				],
+				"Diffuse_Color_01_Value_2": [
+					{
+						"originalProperty": "Diffuse_Color_01_Value",
+						"originalEntity": "cafe969704e98589"
+					}
+				],
+				"Diffuse_Hue_Shift_01_Value_1": [
+					{
+						"originalProperty": "Diffuse_Hue_Shift_01_Value",
+						"originalEntity": "cafe969704e98589"
+					}
+				],
+				"Diffuse_Saturation_01_Value_2": [
+					{
+						"originalProperty": "Diffuse_Saturation_01_Value",
+						"originalEntity": "cafe969704e98589"
+					}
+				],
+				"Texture2DNormal_01_2": [
+					{
+						"originalProperty": "Texture2DNormal_01",
+						"originalEntity": "cafe969704e98589"
+					}
+				],
+				"Texture2D_01_2": [
+					{
+						"originalProperty": "Texture2D_01",
+						"originalEntity": "cafe969704e98589"
+					}
+				],
+				"Texture2D_03_2": [
+					{
+						"originalProperty": "Texture2D_03",
+						"originalEntity": "cafe969704e98589"
+					}
+				],
+				"m_pMeshResource": [
+					{
+						"originalProperty": "m_pMeshResource",
+						"originalEntity": "cafe28bef9c2c288"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZBodyPartEntity": "cafe28bef9c2c288",
+				"ZClothColliderGroupAspect": "cafe28bef9c2c288"
 			}
 		}
 	},

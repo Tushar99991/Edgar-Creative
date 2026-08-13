@@ -83,6 +83,23 @@
 			}
 		},
 		{
+			"name": "Terry Norfolk suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Terry Norfolk's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_terry"],
+			"blobsFolders": ["blobs_terry"],
+			"localisedLines": {
+				"00CC13AAEAB7C11A": "UI_TOKEN_OUTFIT_HERO_N0R0_SUIT_NAME",
+				"00032DA895851A57": "UI_TOKEN_OUTFIT_HERO_N0R0_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_N0R0_SUIT_NAME": "Terry Norfolk 47",
+					"UI_TOKEN_OUTFIT_HERO_N0R0_SUIT_DESC": "The outfit of Terry Norfolk from Training Mission."
+				}
+			}
+		},
+		{
 			"name": "Vampire Magician Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Vampire Magician's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -645,6 +662,16 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "00DEECC79E194702",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "002602D476105DFC",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "009388BC92CE4CC4",
 			"toChunk": 0,
