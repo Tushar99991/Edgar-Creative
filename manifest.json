@@ -2,10 +2,10 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Edgar.Creative",
 	"name": "A Creative Outfits Collection",
-	"description": "The collection of several Outfits including unique designs.",
+	"description": "The collection of several Outfits including unique designs from whole Trilogy.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.41",
-	"version": "1.18.0",
+	"version": "1.18.1",
 	"options": [
 		{
 			"group": "Replacer",
