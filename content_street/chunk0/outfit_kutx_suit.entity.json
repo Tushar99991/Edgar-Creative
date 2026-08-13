@@ -114,7 +114,6 @@
 						"cafe83e3200d4883",
 						"df28b22e2ba1029b",
 						"cafeeb2c91385754",
-						"cafe28bef9c2c288",
 						"cafea3a1d59a8221",
 						"cafe393763d2ec82",
 						"cafe7ee51601c2a2"
@@ -156,7 +155,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafe26f9bb049e32", "cafe4c7f42b43169", "cafe62aa50ef130b", "cafe529919888065"]
+					"T": [
+						"cafe26f9bb049e32",
+						"cafe4c7f42b43169",
+						"cafe62aa50ef130b",
+						"cafe529919888065"
+					]
 				}
 			}
 		},

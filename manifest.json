@@ -67,7 +67,7 @@
 		},
 		{
 			"group": "Replacer",
-			"name": "Noire Suit with Sunglasses (Replacer)",
+			"name": "Noire Suit with Sunglasses On (Replacer)",
 			"type": "select",
 			"enabledByDefault": false,
 			"tooltip": "Replaces your Cowboy Suit (Themed Category) with the Noire Suit with Sunglasses.",
