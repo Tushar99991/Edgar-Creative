@@ -1,4 +1,4 @@
-# A Creative Outfits Collection
+# A Creative Outfits Collection for Peacock & Offline Mode.
 
 The collection of several Outfits including unique designs from whole Trilogy.
 
@@ -6,4 +6,4 @@ The collection of several Outfits including unique designs from whole Trilogy.
 
 ---
 
-`Edgar.Creative` v1.21.0, by Edgar. This README was automatically generated from the mod's manifest.
+`Edgar.Creative` v1.22.0, by Edgar. This README was automatically generated from the mod's manifest.
