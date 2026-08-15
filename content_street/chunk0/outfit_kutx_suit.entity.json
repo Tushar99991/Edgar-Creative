@@ -155,7 +155,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafe26f9bb049e32", "cafe4c7f42b43169", "cafe62aa50ef130b", "cafe529919888065"]
+					"T": [
+						"cafe26f9bb049e32",
+						"cafe4c7f42b43169",
+						"cafe62aa50ef130b",
+						"cafe529919888065"
+					]
 				}
 			}
 		},
@@ -574,7 +579,7 @@
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/textures/balaclava_1hole.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/textures/balaclava_1hole_s3.texture?/diffuse_a.tex](ascolormap).pc_tex",
 						"flag": "5F"
 					}
 				},

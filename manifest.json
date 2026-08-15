@@ -1,7 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Edgar.Creative",
-	"name": "A Creative Outfits Collection",
+	"name": "A Creative Outfits Collection for Peacock & Offline Mode.",
 	"description": "The collection of several Outfits including unique designs from whole Trilogy.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.41",
@@ -79,6 +79,23 @@
 						"798452684": "This outfit is inspired from L.A. Noire.",
 						"946160713": "Noire 47"
 					}
+				}
+			}
+		},
+		{
+			"name": "Elite Guard Blue Ark suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Blue Elite Guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_blue"],
+			"blobsFolders": ["blobs_blue"],
+			"localisedLines": {
+				"00AC0147C73291F5": "UI_TOKEN_OUTFIT_HERO_JAMY_SUIT_NAME",
+				"001A5D7BD03B5184": "UI_TOKEN_OUTFIT_HERO_JAMY_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_JAMY_SUIT_NAME": "Ark Guard 47",
+					"UI_TOKEN_OUTFIT_HERO_JAMY_SUIT_DESC": "The blue colour outfit of Elite Guard from Isle of Sgail Mission."
 				}
 			}
 		},
@@ -662,6 +679,11 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "0085887FDB52F791",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "00DEECC79E194702",
 			"toChunk": 0,
