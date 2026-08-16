@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Edgar.Creative",
 	"name": "A Creative Outfits Collection for Peacock & Offline Mode.",
-	"description": "The collection of several Outfits including unique designs from whole Trilogy.",
+	"description": "The collection of several Outfits including unique designs from whole Trilogy. MAKE SURE TO SELECT ALL CHECKBOX SUIT OPTIONS.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.41",
 	"version": "1.22.0",
@@ -79,6 +79,90 @@
 						"798452684": "This outfit is inspired from L.A. Noire.",
 						"946160713": "Noire 47"
 					}
+				}
+			}
+		},
+		{
+			"name": "Fired Banker suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Fired Banker's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_are"
+			],
+			"blobsFolders": [
+				"blobs_are"
+			],
+			"localisedLines": {
+				"0075F617AE4C9041": "UI_TOKEN_OUTFIT_HERO_AR3_SUIT_NAME",
+				"002C5A2D16C5BC28": "UI_TOKEN_OUTFIT_HERO_AR3_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_AR3_SUIT_NAME": "Fired Banker Suit",
+					"UI_TOKEN_OUTFIT_HERO_AR3_SUIT_DESC": "Fired Banker Outfit from New York Mission."
+				}
+			}
+		},
+		{
+			"name": "CICADA Guard Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the CICADA guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_elite"
+			],
+			"blobsFolders": [
+				"blobs_peacock_elite"
+			],
+			"localisedLines": {
+				"00C4B2C83D4E6C88": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_NAME",
+				"0064EDC544430D8A": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_NAME": "CICADA Guard Suit",
+					"UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_DESC": "A CICADA Guard Suit for 47 from You Owe Him Nothing cutscene."
+				}
+			}
+		},
+		{
+			"name": "Providence Commando Leader suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Providence Commando Leader's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_the"
+			],
+			"blobsFolders": [
+				"blobs_the"
+			],
+			"localisedLines": {
+				"004CC7AE0FF05068": "UI_TOKEN_OUTFIT_HERO_TH3_SUIT_NAME",
+				"00AC3459FBFE4540": "UI_TOKEN_OUTFIT_HERO_TH3_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_TH3_SUIT_NAME": "Providence Leader Suit",
+					"UI_TOKEN_OUTFIT_HERO_TH3_SUIT_DESC": "Providence Commando Leader outfit from Romania Mission."
+				}
+			}
+		},
+		{
+			"name": "Providence Helmet suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Providence Helmet Guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_how"
+			],
+			"blobsFolders": [
+				"blobs_how"
+			],
+			"localisedLines": {
+				"0030F86050E4560A": "UI_TOKEN_OUTFIT_HERO_AX1_SUIT_NAME",
+				"009F7A31D9F9AC35": "UI_TOKEN_OUTFIT_HERO_AX1_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_AX1_SUIT_NAME": "Providence Elite Guard Suit with Helmet",
+					"UI_TOKEN_OUTFIT_HERO_AX1_SUIT_DESC": "Providence Elite Guard Suit from Romania Mission."
 				}
 			}
 		},
@@ -440,23 +524,6 @@
 			}
 		},
 		{
-			"name": "Elite Guard Peacock Addon",
-			"type": "checkbox",
-			"tooltip": "Install the providene elite guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_elite"],
-			"blobsFolders": ["blobs_peacock_elite"],
-			"localisedLines": {
-				"00C4B2C83D4E6C88": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_NAME",
-				"0064EDC544430D8A": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_DESC"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_NAME": "Providence Elite Guard Suit",
-					"UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_DESC": "A Providence Elite Guard Suit for 47 from Romania's Mission."
-				}
-			}
-		},
-		{
 			"name": "Philo Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the The Philo Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -679,6 +746,16 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "00DE0A79E0DA939A",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0034E25A14C532DD",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "0085887FDB52F791",
 			"toChunk": 0,

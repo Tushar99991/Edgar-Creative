@@ -155,7 +155,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafe26f9bb049e32", "cafe4c7f42b43169", "cafe62aa50ef130b", "cafe529919888065"]
+					"T": [
+						"cafe26f9bb049e32",
+						"cafe4c7f42b43169",
+						"cafe62aa50ef130b",
+						"cafe529919888065"
+					]
 				}
 			}
 		},
@@ -179,7 +184,6 @@
 						"cafe28bef9c2c288",
 						"cafe7c3d298c2a85",
 						"cafe83e3200d4883",
-						"cafef7475f025748",
 						"df28b22e2ba1029b",
 						"cafea3a1d59a8221",
 						"cafef1487cafe0d2",
@@ -211,7 +215,6 @@
 						"cafeeb2c91385754",
 						"cafe969704e98589",
 						"cafe28bef9c2c288",
-						"cafef7475f025748",
 						"df28b22e2ba1029b",
 						"cafef1487cafe0d2",
 						"cafe7ee201d7e26d",
@@ -239,7 +242,6 @@
 						"cafe87023a937380",
 						"cafe7c3d298c2a85",
 						"cafe83e3200d4883",
-						"cafef7475f025748",
 						"cafeeb2c91385754",
 						"cafe969704e98589",
 						"cafe28bef9c2c288",
@@ -273,7 +275,6 @@
 						"cafe969704e98589",
 						"cafe28bef9c2c288",
 						"cafe83e3200d4883",
-						"cafef7475f025748",
 						"df28b22e2ba1029b",
 						"cafea3a1d59a8221",
 						"cafef1487cafe0d2",
@@ -472,25 +473,6 @@
 			},
 			"platformSpecificProperties": {
 				"VR": { "m_bVisible": { "type": "bool", "value": false } }
-			}
-		},
-		"cafef7475f025748": {
-			"parent": "22ea5f8267450642",
-			"name": "Balaclava_1Hole",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/balaclava_1hole.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/balaclava_1hole.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"Diffuse_Color_01_Value_2": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
-				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/headwear/geometry/male_reg_headwear_skinned.wl2?/balaclava_1hole_47.weightedprim](bodypart).pc_weightedprim",
-						"flag": "5F"
-					}
-				}
 			}
 		},
 		"cafea3a1d59a8221": {
