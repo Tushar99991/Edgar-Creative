@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits including unique designs from whole Trilogy. MAKE SURE TO SELECT ALL CHECKBOX SUIT OPTIONS.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.41",
-	"version": "1.22.0",
+	"version": "1.23.0",
 	"options": [
 		{
 			"group": "Replacer",
@@ -86,12 +86,8 @@
 			"name": "Fired Banker suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Fired Banker's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_are"
-			],
-			"blobsFolders": [
-				"blobs_are"
-			],
+			"contentFolders": ["content_are"],
+			"blobsFolders": ["blobs_are"],
 			"localisedLines": {
 				"0075F617AE4C9041": "UI_TOKEN_OUTFIT_HERO_AR3_SUIT_NAME",
 				"002C5A2D16C5BC28": "UI_TOKEN_OUTFIT_HERO_AR3_SUIT_DESC"
@@ -107,12 +103,8 @@
 			"name": "CICADA Guard Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the CICADA guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_peacock_elite"
-			],
-			"blobsFolders": [
-				"blobs_peacock_elite"
-			],
+			"contentFolders": ["content_peacock_elite"],
+			"blobsFolders": ["blobs_peacock_elite"],
 			"localisedLines": {
 				"00C4B2C83D4E6C88": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_NAME",
 				"0064EDC544430D8A": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_DESC"
@@ -128,12 +120,8 @@
 			"name": "Providence Commando Leader suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Providence Commando Leader's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_the"
-			],
-			"blobsFolders": [
-				"blobs_the"
-			],
+			"contentFolders": ["content_the"],
+			"blobsFolders": ["blobs_the"],
 			"localisedLines": {
 				"004CC7AE0FF05068": "UI_TOKEN_OUTFIT_HERO_TH3_SUIT_NAME",
 				"00AC3459FBFE4540": "UI_TOKEN_OUTFIT_HERO_TH3_SUIT_DESC"
@@ -149,12 +137,8 @@
 			"name": "Providence Helmet suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Providence Helmet Guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_how"
-			],
-			"blobsFolders": [
-				"blobs_how"
-			],
+			"contentFolders": ["content_how"],
+			"blobsFolders": ["blobs_how"],
 			"localisedLines": {
 				"0030F86050E4560A": "UI_TOKEN_OUTFIT_HERO_AX1_SUIT_NAME",
 				"009F7A31D9F9AC35": "UI_TOKEN_OUTFIT_HERO_AX1_SUIT_DESC"
