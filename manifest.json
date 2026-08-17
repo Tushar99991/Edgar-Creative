@@ -5,7 +5,7 @@
 	"description": "The collection of several Outfits including unique designs from whole Trilogy. MAKE SURE TO SELECT ALL CHECKBOX SUIT OPTIONS.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.41",
-	"version": "1.23.0",
+	"version": "1.24.0",
 	"options": [
 		{
 			"group": "Replacer",
