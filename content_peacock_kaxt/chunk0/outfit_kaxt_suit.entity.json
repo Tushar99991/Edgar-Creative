@@ -111,8 +111,7 @@
 						"cafe557528eedf47",
 						"cafe29276d42d69e",
 						"cafe9b78c9849274",
-						"cafe7520bc384983",
-						"cafef468063626cc",
+						"cafee510887ab021",
 						"cafe92cb6138aa79",
 						"cafed88c42fa1a5c"
 					],
@@ -348,7 +347,12 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
+					"value": ["22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
 					"postInit": true
 				}
 			}
@@ -579,7 +583,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafe1dfe0ae37203", "cafeb4386f35f837", "cafee8aeee0ab624", "cafe4247ca0af2fc"]
+					"T": [
+						"cafe1dfe0ae37203",
+						"cafeb4386f35f837",
+						"cafee8aeee0ab624",
+						"cafe4247ca0af2fc"
+					]
 				}
 			}
 		},
@@ -612,7 +621,17 @@
 						"cafed47138ffb5a5",
 						"cafe89107be99c02",
 						"cafec250192357bb",
-						"cafe65b6c5a56222"
+						"cafe65b6c5a56222",
+						"cafe29b3454ba055",
+						"cafea8f0079dea54",
+						"cafe81fd99313ed4",
+						"cafe57bd5babe8a9",
+						"cafe557528eedf47",
+						"cafe29276d42d69e",
+						"cafe9b78c9849274",
+						"cafe7520bc384983",
+						"cafee510887ab021",
+						"cafe92cb6138aa79"
 					]
 				}
 			}
@@ -645,7 +664,17 @@
 						"cafed47138ffb5a5",
 						"cafe89107be99c02",
 						"cafec250192357bb",
-						"cafe65b6c5a56222"
+						"cafe65b6c5a56222",
+						"cafe29b3454ba055",
+						"cafea8f0079dea54",
+						"cafe81fd99313ed4",
+						"cafe57bd5babe8a9",
+						"cafe557528eedf47",
+						"cafe29276d42d69e",
+						"cafe9b78c9849274",
+						"cafe7520bc384983",
+						"cafee510887ab021",
+						"cafe92cb6138aa79"
 					]
 				}
 			}
@@ -679,7 +708,17 @@
 						"cafed47138ffb5a5",
 						"cafe89107be99c02",
 						"cafec250192357bb",
-						"cafe65b6c5a56222"
+						"cafe65b6c5a56222",
+						"cafe29b3454ba055",
+						"cafea8f0079dea54",
+						"cafe81fd99313ed4",
+						"cafe57bd5babe8a9",
+						"cafe557528eedf47",
+						"cafe29276d42d69e",
+						"cafe9b78c9849274",
+						"cafe7520bc384983",
+						"cafee510887ab021",
+						"cafe92cb6138aa79"
 					]
 				}
 			}
@@ -712,7 +751,17 @@
 						"cafeb82975699a5a",
 						"cafec6689ef66ee4",
 						"cafec250192357bb",
-						"cafe65b6c5a56222"
+						"cafe65b6c5a56222",
+						"cafe29b3454ba055",
+						"cafea8f0079dea54",
+						"cafe81fd99313ed4",
+						"cafe57bd5babe8a9",
+						"cafe557528eedf47",
+						"cafe29276d42d69e",
+						"cafe9b78c9849274",
+						"cafe7520bc384983",
+						"cafee510887ab021",
+						"cafe92cb6138aa79"
 					]
 				}
 			}
@@ -741,8 +790,56 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
+					"value": ["22ea5f8267450642"],
 					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"Diffuse_Hue_Shift_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/male_reg_agent47_colorado_hat_01_s3.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00430610C4E3688D",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FBB672A63B50B1",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
 				}
 			}
 		},
@@ -1018,12 +1115,12 @@
 				"m_BoneName": { "type": "ZString", "value": "Head" },
 				"m_linkedEntity": {
 					"type": "SEntityTemplateReference",
-					"value": "22ea5f8267450642",
+					"value": null,
 					"postInit": true
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "22ea5f8267450642",
+					"value": null,
 					"postInit": true
 				}
 			}
@@ -1063,12 +1160,12 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe7520bc384983",
+					"value": null,
 					"postInit": true
 				},
 				"m_rLinkedProxyEntity": {
 					"type": "SEntityTemplateReference",
-					"value": "22ea5f8267450642",
+					"value": null,
 					"postInit": true
 				}
 			}
