@@ -328,11 +328,7 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe7bbf3cd605c7",
-						"cafe7e9e588e40aa",
-						"cafedf3135e1de4c"
-					],
+					"value": ["cafe7bbf3cd605c7", "cafe7e9e588e40aa", "cafedf3135e1de4c"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1859,11 +1855,7 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe48c79c0524e6",
-						"cafe5fc5d8bcd45a",
-						"cafea86cbe94ef8f"
-					],
+					"value": ["cafe48c79c0524e6", "cafe5fc5d8bcd45a", "cafea86cbe94ef8f"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2808,12 +2800,7 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": [
-						"cafe3a215453fd21",
-						"cafe4bf476910208",
-						"cafe6ce322863a75",
-						"cafec74cbc4a311f"
-					]
+					"T": ["cafe3a215453fd21", "cafe4bf476910208", "cafe6ce322863a75", "cafec74cbc4a311f"]
 				}
 			}
 		},

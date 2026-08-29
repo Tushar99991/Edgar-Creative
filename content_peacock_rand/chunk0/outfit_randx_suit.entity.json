@@ -89,12 +89,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe99f09008368d",
-						"cafed321e276cf5d",
-						"cafe82379fb48391",
-						"cafe2d9423a5252a"
-					],
+					"value": ["cafe99f09008368d", "cafed321e276cf5d", "cafe82379fb48391", "cafe2d9423a5252a"],
 					"postInit": true
 				}
 			}
@@ -120,12 +115,7 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": [
-						"cafe8434fb958f8e",
-						"cafea4ee96ad27b1",
-						"cafe09c3ad147541",
-						"cafe3a5ad043cb27"
-					]
+					"T": ["cafe8434fb958f8e", "cafea4ee96ad27b1", "cafe09c3ad147541", "cafe3a5ad043cb27"]
 				}
 			}
 		},

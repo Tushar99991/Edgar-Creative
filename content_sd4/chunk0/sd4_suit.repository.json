@@ -1,1 +1,13 @@
-{"a4d2ebc3-8aa3-4ec1-8239-379fe7104853":{"CommonName":"CHAR_Global_Hero_Sd4_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_SD4_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_sd4_suit.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_SD4_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_SD4_SUIT","Category":""}}
+{
+	"a4d2ebc3-8aa3-4ec1-8239-379fe7104853": {
+		"CommonName": "CHAR_Global_Hero_Sd4_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_SD4_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_sd4_suit.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_SD4_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_SD4_SUIT",
+		"Category": ""
+	}
+}

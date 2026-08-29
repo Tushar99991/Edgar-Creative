@@ -1,1 +1,24 @@
-{"TOKEN_OUTFIT_HERO_SD2_SUIT":{"Guid":"3c4f328a-27b7-4470-9c60-719d85a2eb0c","Type":"disguise","Subtype":"casual","ImageId":"","RMTPrice":-1,"GamePrice":-1,"IsPurchasable":false,"IsPublished":true,"IsDroppable":false,"Capabilities":[],"Qualities":{},"Properties":{"Quality":4,"Rarity":"common","LoadoutSlot":"disguise","IsConsumable":false,"RepositoryId":"5db9e313-bcf1-49a9-bb26-2f7963951d54","OrderIndex":21},"Rarity":"common"}}
+{
+	"TOKEN_OUTFIT_HERO_SD2_SUIT": {
+		"Guid": "3c4f328a-27b7-4470-9c60-719d85a2eb0c",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "5db9e313-bcf1-49a9-bb26-2f7963951d54",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

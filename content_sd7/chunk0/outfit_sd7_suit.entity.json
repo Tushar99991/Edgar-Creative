@@ -247,10 +247,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_06_Value": [
-						"cafe67c3b184741e",
-						"cafe77327264ae4b"
-					]
+					"ConstantVector1D_06_Value": ["cafe67c3b184741e", "cafe77327264ae4b"]
 				}
 			}
 		},
@@ -487,10 +484,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_04_Value": [
-						"cafe67c3b184741e",
-						"cafe77327264ae4b"
-					]
+					"ConstantVector1D_04_Value": ["cafe67c3b184741e", "cafe77327264ae4b"]
 				}
 			}
 		},
@@ -894,10 +888,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_01_Value": [
-						"cafe67c3b184741e",
-						"cafe77327264ae4b"
-					]
+					"ConstantVector1D_01_Value": ["cafe67c3b184741e", "cafe77327264ae4b"]
 				}
 			}
 		},
@@ -931,10 +922,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_04_Value": [
-						"cafe4429417a64c6",
-						"cafeb851b0e2d703"
-					]
+					"ConstantVector1D_04_Value": ["cafe4429417a64c6", "cafeb851b0e2d703"]
 				}
 			}
 		},
