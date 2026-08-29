@@ -125,22 +125,6 @@
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/hands.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/hands.entitytemplate].pc_entityblueprint"
 		},
-		"cafe55f77c1f331d": {
-			"parent": "22ea5f8267450642",
-			"name": "Tie_Wide",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_neckwear.template?/tie_wide.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_neckwear.template?/tie_wide.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#b2780d"
-				},
-				"ConstantColorRGB_05_Value": {
-					"type": "SColorRGB",
-					"value": "#FFA500"
-				}
-			}
-		},
 		"cafee4378cb92e7d": {
 			"parent": "22ea5f8267450642",
 			"name": "Pants_Dress_Regular_NoBrk",
@@ -190,11 +174,11 @@
 			"properties": {
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#030101"
+					"value": "#262525"
 				},
 				"Diffuse_Color_02_Value": {
 					"type": "SColorRGB",
-					"value": "#050505"
+					"value": "#262525"
 				}
 			}
 		},
@@ -206,7 +190,7 @@
 			"properties": {
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#070101"
+					"value": "#262525"
 				}
 			}
 		},
@@ -266,7 +250,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafe5f172c8ef22b", "cafeced04ea898cb", "cafe4fc4422c27b1", "cafe83ef21457d7d"]
+					"T": [
+						"cafe5f172c8ef22b",
+						"cafeced04ea898cb",
+						"cafe4fc4422c27b1",
+						"cafe83ef21457d7d"
+					]
 				}
 			}
 		},
@@ -287,7 +276,6 @@
 						"cafef47859939eda",
 						"cafee4378cb92e7d",
 						"cafe0a6bc9081cf3",
-						"cafe55f77c1f331d",
 						"cafe5ff2af99ed41",
 						"cafe2e10ce1ed8f9",
 						"cafe57e218e41e84",
@@ -313,7 +301,6 @@
 						"cafee4378cb92e7d",
 						"cafe2e10ce1ed8f9",
 						"cafe0a6bc9081cf3",
-						"cafe55f77c1f331d",
 						"cafe5ff2af99ed41",
 						"cafe57e218e41e84",
 						"cafe70770d09d639"
@@ -339,7 +326,6 @@
 						"cafee4378cb92e7d",
 						"cafe2e10ce1ed8f9",
 						"cafe0a6bc9081cf3",
-						"cafe55f77c1f331d",
 						"cafe5ff2af99ed41",
 						"cafe57e218e41e84",
 						"cafe70770d09d639",
@@ -365,7 +351,6 @@
 						"cafee4378cb92e7d",
 						"cafe2e10ce1ed8f9",
 						"cafe0a6bc9081cf3",
-						"cafe55f77c1f331d",
 						"cafe5ff2af99ed41",
 						"cafe57e218e41e84",
 						"cafe70770d09d639"
@@ -386,13 +371,9 @@
 						"flag": "5F"
 					}
 				},
-				"ConstantColorRGB_05_Value": {
-					"type": "SColorRGB",
-					"value": "#FFFFFF"
-				},
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
-					"value": "#FFFFFF"
+					"value": "#FFF44F"
 				},
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",

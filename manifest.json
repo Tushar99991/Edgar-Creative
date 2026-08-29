@@ -4,7 +4,7 @@
 	"name": "A Creative Outfits Collection for Peacock & Offline Mode.",
 	"description": "The collection of several Outfits including unique designs from whole Trilogy. MAKE SURE TO SELECT ALL CHECKBOX SUIT OPTIONS.",
 	"authors": ["Edgar"],
-	"frameworkVersion": "2.33.41",
+	"frameworkVersion": "2.33.42",
 	"version": "1.24.0",
 	"options": [
 		{
@@ -79,6 +79,176 @@
 						"798452684": "This outfit is inspired from L.A. Noire.",
 						"946160713": "Noire 47"
 					}
+				}
+			}
+		},
+		{
+			"name": "Hemp Suit (Snoop Dogg's ET Starting Suit) Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Hemp Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_sd8"],
+			"blobsFolders": ["blobs_sd8"],
+			"localisedLines": {
+				"005FDB900414691F": "UI_TOKEN_OUTFIT_HERO_SD8_SUIT_NAME",
+				"00F5ACA828C0A371": "UI_TOKEN_OUTFIT_HERO_SD8_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SD8_SUIT_NAME": "Hemp Suit",
+					"UI_TOKEN_OUTFIT_HERO_SD8_SUIT_DESC": "Hemp Suit is the starting default outfit from Haven Island's ET."
+				}
+			}
+		},
+		{
+			"name": "Elliot Gunk suit (From Snoop Dogg's ET Mission) Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Elliot Gunk suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_sxd1"],
+			"blobsFolders": ["blobs_sxd1"],
+			"localisedLines": {
+				"00EB2E4F60B7E7B8": "UI_TOKEN_OUTFIT_HERO_SXD1_SUIT_NAME",
+				"00E6C391ED18DCF3": "UI_TOKEN_OUTFIT_HERO_SXD1_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SXD1_SUIT_NAME": "Elliot Gunk Suit",
+					"UI_TOKEN_OUTFIT_HERO_SXD1_SUIT_DESC": "Elliot Gunk Outfit from Haven Island."
+				}
+			}
+		},
+		{
+			"name": "High Profiled DJ suit (Snoop Dogg's ET) Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the High Profiled DJ suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_sd2"],
+			"blobsFolders": ["blobs_sd2"],
+			"localisedLines": {
+				"00A2BE842C581D04": "UI_TOKEN_OUTFIT_HERO_SD2_SUIT_NAME",
+				"0086F04D1B7E071A": "UI_TOKEN_OUTFIT_HERO_SD2_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SD2_SUIT_NAME": "Haven DJ Suit",
+					"UI_TOKEN_OUTFIT_HERO_SD2_SUIT_DESC": "High Profiled DJ Outfit from Haven Island ET."
+				}
+			}
+		},
+		{
+			"name": "Event Staff suit (Snoop Dogg's ET) Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Event Staff suit (Snoop Dogg's ET) as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_sd3"],
+			"blobsFolders": ["blobs_sd3"],
+			"localisedLines": {
+				"00EB5843738DB6F5": "UI_TOKEN_OUTFIT_HERO_SD3_SUIT_NAME",
+				"00AC4A5D6B00BFFC": "UI_TOKEN_OUTFIT_HERO_SD3_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SD3_SUIT_NAME": "Staff 47",
+					"UI_TOKEN_OUTFIT_HERO_SD3_SUIT_DESC": "Even Staff Outfit from Haven Island ET."
+				}
+			}
+		},
+		{
+			"name": "Bodyguard suit (Snoop Dogg's ET) Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Bodyguard suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_sd4"],
+			"blobsFolders": ["blobs_sd4"],
+			"localisedLines": {
+				"00B59C5F82566E50": "UI_TOKEN_OUTFIT_HERO_SD4_SUIT_NAME",
+				"000E19DBDA2CC824": "UI_TOKEN_OUTFIT_HERO_SD4_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SD4_SUIT_NAME": "Bodyguard 47",
+					"UI_TOKEN_OUTFIT_HERO_SD4_SUIT_DESC": "Bodyguard Outfit from Haven Island ET."
+				}
+			}
+		},
+		{
+			"name": "Masked Guard suit (Snoop Dogg's ET) Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Production Guard suit (Snoop Dogg's ET) as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_sd5"],
+			"blobsFolders": ["blobs_sd5"],
+			"localisedLines": {
+				"00BC8AE13879F3BA": "UI_TOKEN_OUTFIT_HERO_SD5_SUIT_NAME",
+				"00EE6AC50C37DC41": "UI_TOKEN_OUTFIT_HERO_SD5_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SD5_SUIT_NAME": "Masked Guard Suit",
+					"UI_TOKEN_OUTFIT_HERO_SD5_SUIT_DESC": "Production Guard Outfit from Haven Island's ET."
+				}
+			}
+		},
+		{
+			"name": "Villa Guard suit (Snoop Dogg's ET) Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Villa Guard suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_sd6"],
+			"blobsFolders": ["blobs_sd6"],
+			"localisedLines": {
+				"0030A127C7CBF4DE": "UI_TOKEN_OUTFIT_HERO_SD6_SUIT_NAME",
+				"003E65F50C49C230": "UI_TOKEN_OUTFIT_HERO_SD6_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SD6_SUIT_NAME": "Villa Guard Suit",
+					"UI_TOKEN_OUTFIT_HERO_SD6_SUIT_DESC": "Villa Guard Outfit from Haven Island's ET."
+				}
+			}
+		},
+		{
+			"name": "Weed Production Staff suit (Snoop Dogg's ET) Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the ABCsuit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_sd7"],
+			"blobsFolders": ["blobs_sd7"],
+			"localisedLines": {
+				"00181717B7E48CAF": "UI_TOKEN_OUTFIT_HERO_SD7_SUIT_NAME",
+				"001D20662A91ABA1": "UI_TOKEN_OUTFIT_HERO_SD7_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SD7_SUIT_NAME": "Weed Staff Suit",
+					"UI_TOKEN_OUTFIT_HERO_SD7_SUIT_DESC": "Weed Production Staff Outfit from Haven Island's ET."
+				}
+			}
+		},
+		{
+			"name": "Leopard 47 Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Majestic Leopard Suit as a Peacock/Offline addon (does not replace existing suits. Works when playing offline or with Peacock.",
+			"contentFolders": ["content_peacock_gand"],
+			"blobsFolders": ["blobs_peacock_gand"],
+			"localisedLines": {
+				"00131A826CE74EC8": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_NAME",
+				"009B755E520F0E53": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_COMA_SUIT_NAME": "Leopard Suit",
+					"UI_TOKEN_OUTFIT_HERO_COMA_SUIT_DESC": "The Majestic Leopard Suit"
+				}
+			}
+		},
+		{
+			"name": "Orange Variant of Journalist suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Orange's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": ["content_peacock_orange"],
+			"blobsFolders": ["blobs_peacock_orange"],
+			"localisedLines": {
+				"00905288491A1C43": "UI_TOKEN_OUTFIT_HERO_JABY_SUIT_NAME",
+				"003F845E62AB1140": "UI_TOKEN_OUTFIT_HERO_JABY_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_JABY_SUIT_NAME": "Orange 47",
+					"UI_TOKEN_OUTFIT_HERO_JABY_SUIT_DESC": "The Orange variant of Journalist outfit from Dubai Mission"
 				}
 			}
 		},
@@ -406,40 +576,6 @@
 			}
 		},
 		{
-			"name": "Leopard 47 Suit Peacock Addon",
-			"type": "checkbox",
-			"tooltip": "Install the Majestic Leopard Suit as a Peacock/Offline addon (does not replace existing suits. Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_gand"],
-			"blobsFolders": ["blobs_peacock_gand"],
-			"localisedLines": {
-				"00131A826CE74EC8": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_NAME",
-				"009B755E520F0E53": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_DESC"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_COMA_SUIT_NAME": "Leopard Suit",
-					"UI_TOKEN_OUTFIT_HERO_COMA_SUIT_DESC": "The Majestic Leopard Suit"
-				}
-			}
-		},
-		{
-			"name": "Orange Variant of Journalist suit Peacock Addon",
-			"type": "checkbox",
-			"tooltip": "Install the Orange's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_orange"],
-			"blobsFolders": ["blobs_peacock_orange"],
-			"localisedLines": {
-				"00905288491A1C43": "UI_TOKEN_OUTFIT_HERO_JABY_SUIT_NAME",
-				"003F845E62AB1140": "UI_TOKEN_OUTFIT_HERO_JABY_SUIT_DESC"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_JABY_SUIT_NAME": "Orange 47",
-					"UI_TOKEN_OUTFIT_HERO_JABY_SUIT_DESC": "The Orange variant of Journalist outfit from Dubai Mission"
-				}
-			}
-		},
-		{
 			"name": "General Murillo Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the General Murillo Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -730,6 +866,61 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "00FF62F7CBF8AE6E",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0059E1DB0D466A67",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "002929C887523B27",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00CC8DFDC42D08E1",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "001E2DE7658ECD33",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0066E64DA64C61C1",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "002474007D783EEC",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0003B352D92A9674",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00D642F27421DA34",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0077F8415BB45278",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00A1B2ADC11A5A55",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "00DE0A79E0DA939A",
 			"toChunk": 0,
