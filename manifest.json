@@ -1,93 +1,87 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Edgar.Creative",
-	"name": "A Creative Outfits Collection for Peacock & Offline Mode.",
+	"name": "A Creative Outfits Collection for Peacock.",
 	"description": "The collection of several Outfits including unique designs from whole Trilogy. PLEASE MAKE SURE TO SELECT ALL CHECKBOX SUIT OPTIONS.",
-	"authors": ["Edgar"],
+	"authors": [
+		"Edgar"
+	],
 	"frameworkVersion": "2.33.42",
 	"version": "1.25.0",
 	"options": [
 		{
-			"group": "Replacer",
-			"name": "Off",
-			"type": "select",
-			"enabledByDefault": true,
-			"tooltip": "Does not replace anything (if you don't want to replace your outfits in online mode.)"
-		},
-		{
-			"group": "Replacer",
-			"name": "Journalist's Suit (Replacer)",
-			"type": "select",
-			"enabledByDefault": false,
-			"tooltip": "Replaces your Cowboy Suit (Themed Category) with the decent Journalist Suit from Dubai.",
-			"contentFolders": ["content"],
-			"blobsFolders": ["blobs"],
-			"localisationOverrides": {
-				"00985A1100E5EDDC": {
-					"english": {
-						"798452684": "The outfit of the Journalist from Dubai Mission.",
-						"946160713": "Journalist 47"
-					}
+			"name": "Fishnet Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Fishnet's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_fsh"
+			],
+			"blobsFolders": [
+				"blobs_fsh"
+			],
+			"localisedLines": {
+				"00F7B2ACC8D83A4B": "UI_TOKEN_OUTFIT_HERO_FSH_SUIT_NAME",
+				"00094C4BACFD5780": "UI_TOKEN_OUTFIT_HERO_FSH_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_FSH_SUIT_NAME": "Fishnet Suit",
+					"UI_TOKEN_OUTFIT_HERO_FSH_SUIT_DESC": "Fishnet Suit from Berlin's Mission."
 				}
 			}
 		},
 		{
-			"group": "Replacer",
-			"name": "Journalist's Orange Suit with Hair (Replacer)",
-			"type": "select",
-			"enabledByDefault": false,
-			"tooltip": "Replaces your Cowboy Suit (Themed Category) with the Orange variant Journalist Suit and fancy hairstyle.",
-			"contentFolders": ["content_orange"],
-			"blobsFolders": ["blobs_orange"],
-			"localisationOverrides": {
-				"00985A1100E5EDDC": {
-					"english": {
-						"798452684": "The outfit of Journalist from Dubai Mission.",
-						"946160713": "Orange Journalist 47"
-					}
+			"name": "Sheikh Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Sheikh's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_skh"
+			],
+			"blobsFolders": [
+				"blobs_skh"
+			],
+			"localisedLines": {
+				"00BE372F0DEF5168": "UI_TOKEN_OUTFIT_HERO_SKH_SUIT_NAME",
+				"006AEA935D88C743": "UI_TOKEN_OUTFIT_HERO_SKH_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SKH_SUIT_NAME": "Sheikh 47",
+					"UI_TOKEN_OUTFIT_HERO_SKH_SUIT_DESC": "Sheikh Suit from Miami's Mission."
 				}
 			}
 		},
 		{
-			"group": "Replacer",
-			"name": "Noire Suit (Replacer)",
-			"type": "select",
-			"enabledByDefault": false,
-			"tooltip": "Replaces your Cowboy Suit (Themed Category) with the Noire Suit",
-			"contentFolders": ["content_noire"],
-			"blobsFolders": ["blobs_noire"],
-			"localisationOverrides": {
-				"00985A1100E5EDDC": {
-					"english": {
-						"798452684": "This outfit is inspired from L.A. Noire.",
-						"946160713": "Noire 47"
-					}
-				}
-			}
-		},
-		{
-			"group": "Replacer",
-			"name": "Noire Suit with Sunglasses On (Replacer)",
-			"type": "select",
-			"enabledByDefault": false,
-			"tooltip": "Replaces your Cowboy Suit (Themed Category) with the Noire Suit with Sunglasses.",
-			"contentFolders": ["content_noire_glass"],
-			"blobsFolders": ["blobs_noire_glass"],
-			"localisationOverrides": {
-				"00985A1100E5EDDC": {
-					"english": {
-						"798452684": "This outfit is inspired from L.A. Noire.",
-						"946160713": "Noire 47"
-					}
+			"name": "Omar Al Ghazali Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Omar's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_omar"
+			],
+			"blobsFolders": [
+				"blobs_omar"
+			],
+			"localisedLines": {
+				"0015E1265D6DD818": "UI_TOKEN_OUTFIT_HERO_OMR_SUIT_NAME",
+				"00C7AC68CF2CD298": "UI_TOKEN_OUTFIT_HERO_OMR_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_OMR_SUIT_NAME": "Rich Arab 47",
+					"UI_TOKEN_OUTFIT_HERO_OMR_SUIT_DESC": "Rich Arab Suit from Dubai's Mission."
 				}
 			}
 		},
 		{
 			"name": "Hemp Suit (Snoop Dogg's ET Starting Suit) Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Hemp Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_sd8"],
-			"blobsFolders": ["blobs_sd8"],
+			"tooltip": "Install the Hemp Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_sd8"
+			],
+			"blobsFolders": [
+				"blobs_sd8"
+			],
 			"localisedLines": {
 				"005FDB900414691F": "UI_TOKEN_OUTFIT_HERO_SD8_SUIT_NAME",
 				"00F5ACA828C0A371": "UI_TOKEN_OUTFIT_HERO_SD8_SUIT_DESC"
@@ -102,9 +96,13 @@
 		{
 			"name": "Elliot Gunk suit (From Snoop Dogg's ET Mission) Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Elliot Gunk suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_sxd1"],
-			"blobsFolders": ["blobs_sxd1"],
+			"tooltip": "Install the Elliot Gunk suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_sxd1"
+			],
+			"blobsFolders": [
+				"blobs_sxd1"
+			],
 			"localisedLines": {
 				"00EB2E4F60B7E7B8": "UI_TOKEN_OUTFIT_HERO_SXD1_SUIT_NAME",
 				"00E6C391ED18DCF3": "UI_TOKEN_OUTFIT_HERO_SXD1_SUIT_DESC"
@@ -119,9 +117,13 @@
 		{
 			"name": "High Profiled DJ suit (Snoop Dogg's ET) Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the High Profiled DJ suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_sd2"],
-			"blobsFolders": ["blobs_sd2"],
+			"tooltip": "Install the High Profiled DJ suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_sd2"
+			],
+			"blobsFolders": [
+				"blobs_sd2"
+			],
 			"localisedLines": {
 				"00A2BE842C581D04": "UI_TOKEN_OUTFIT_HERO_SD2_SUIT_NAME",
 				"0086F04D1B7E071A": "UI_TOKEN_OUTFIT_HERO_SD2_SUIT_DESC"
@@ -136,9 +138,13 @@
 		{
 			"name": "Event Staff suit (Snoop Dogg's ET) Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Event Staff suit (Snoop Dogg's ET) as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_sd3"],
-			"blobsFolders": ["blobs_sd3"],
+			"tooltip": "Install the Event Staff suit (Snoop Dogg's ET) as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_sd3"
+			],
+			"blobsFolders": [
+				"blobs_sd3"
+			],
 			"localisedLines": {
 				"00EB5843738DB6F5": "UI_TOKEN_OUTFIT_HERO_SD3_SUIT_NAME",
 				"00AC4A5D6B00BFFC": "UI_TOKEN_OUTFIT_HERO_SD3_SUIT_DESC"
@@ -153,9 +159,13 @@
 		{
 			"name": "Bodyguard suit (Snoop Dogg's ET) Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Bodyguard suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_sd4"],
-			"blobsFolders": ["blobs_sd4"],
+			"tooltip": "Install the Bodyguard suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_sd4"
+			],
+			"blobsFolders": [
+				"blobs_sd4"
+			],
 			"localisedLines": {
 				"00B59C5F82566E50": "UI_TOKEN_OUTFIT_HERO_SD4_SUIT_NAME",
 				"000E19DBDA2CC824": "UI_TOKEN_OUTFIT_HERO_SD4_SUIT_DESC"
@@ -170,9 +180,13 @@
 		{
 			"name": "Masked Guard suit (Snoop Dogg's ET) Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Production Guard suit (Snoop Dogg's ET) as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_sd5"],
-			"blobsFolders": ["blobs_sd5"],
+			"tooltip": "Install the Production Guard suit (Snoop Dogg's ET) as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_sd5"
+			],
+			"blobsFolders": [
+				"blobs_sd5"
+			],
 			"localisedLines": {
 				"00BC8AE13879F3BA": "UI_TOKEN_OUTFIT_HERO_SD5_SUIT_NAME",
 				"00EE6AC50C37DC41": "UI_TOKEN_OUTFIT_HERO_SD5_SUIT_DESC"
@@ -187,9 +201,13 @@
 		{
 			"name": "Villa Guard suit (Snoop Dogg's ET) Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Villa Guard suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_sd6"],
-			"blobsFolders": ["blobs_sd6"],
+			"tooltip": "Install the Villa Guard suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_sd6"
+			],
+			"blobsFolders": [
+				"blobs_sd6"
+			],
 			"localisedLines": {
 				"0030A127C7CBF4DE": "UI_TOKEN_OUTFIT_HERO_SD6_SUIT_NAME",
 				"003E65F50C49C230": "UI_TOKEN_OUTFIT_HERO_SD6_SUIT_DESC"
@@ -204,9 +222,13 @@
 		{
 			"name": "Weed Production Staff suit (Snoop Dogg's ET) Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the ABCsuit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_sd7"],
-			"blobsFolders": ["blobs_sd7"],
+			"tooltip": "Install the ABCsuit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_sd7"
+			],
+			"blobsFolders": [
+				"blobs_sd7"
+			],
 			"localisedLines": {
 				"00181717B7E48CAF": "UI_TOKEN_OUTFIT_HERO_SD7_SUIT_NAME",
 				"001D20662A91ABA1": "UI_TOKEN_OUTFIT_HERO_SD7_SUIT_DESC"
@@ -221,9 +243,13 @@
 		{
 			"name": "Leopard 47 Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Majestic Leopard Suit as a Peacock/Offline addon (does not replace existing suits. Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_gand"],
-			"blobsFolders": ["blobs_peacock_gand"],
+			"tooltip": "Install the Majestic Leopard Suit as a Peacock addon (does not replace existing suits. Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_gand"
+			],
+			"blobsFolders": [
+				"blobs_peacock_gand"
+			],
 			"localisedLines": {
 				"00131A826CE74EC8": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_NAME",
 				"009B755E520F0E53": "UI_TOKEN_OUTFIT_HERO_COMA_SUIT_DESC"
@@ -238,9 +264,13 @@
 		{
 			"name": "Orange Variant of Journalist suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Orange's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_orange"],
-			"blobsFolders": ["blobs_peacock_orange"],
+			"tooltip": "Install the Orange's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_orange"
+			],
+			"blobsFolders": [
+				"blobs_peacock_orange"
+			],
 			"localisedLines": {
 				"00905288491A1C43": "UI_TOKEN_OUTFIT_HERO_JABY_SUIT_NAME",
 				"003F845E62AB1140": "UI_TOKEN_OUTFIT_HERO_JABY_SUIT_DESC"
@@ -255,9 +285,13 @@
 		{
 			"name": "Fired Banker suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Fired Banker's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_are"],
-			"blobsFolders": ["blobs_are"],
+			"tooltip": "Install the Fired Banker's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_are"
+			],
+			"blobsFolders": [
+				"blobs_are"
+			],
 			"localisedLines": {
 				"0075F617AE4C9041": "UI_TOKEN_OUTFIT_HERO_AR3_SUIT_NAME",
 				"002C5A2D16C5BC28": "UI_TOKEN_OUTFIT_HERO_AR3_SUIT_DESC"
@@ -272,9 +306,13 @@
 		{
 			"name": "CICADA Guard Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the CICADA guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_elite"],
-			"blobsFolders": ["blobs_peacock_elite"],
+			"tooltip": "Install the CICADA guard's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_elite"
+			],
+			"blobsFolders": [
+				"blobs_peacock_elite"
+			],
 			"localisedLines": {
 				"00C4B2C83D4E6C88": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_NAME",
 				"0064EDC544430D8A": "UI_TOKEN_OUTFIT_HERO_PAPA_SUIT_DESC"
@@ -289,9 +327,13 @@
 		{
 			"name": "Providence Commando Leader suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Providence Commando Leader's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_the"],
-			"blobsFolders": ["blobs_the"],
+			"tooltip": "Install the Providence Commando Leader's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_the"
+			],
+			"blobsFolders": [
+				"blobs_the"
+			],
 			"localisedLines": {
 				"004CC7AE0FF05068": "UI_TOKEN_OUTFIT_HERO_TH3_SUIT_NAME",
 				"00AC3459FBFE4540": "UI_TOKEN_OUTFIT_HERO_TH3_SUIT_DESC"
@@ -306,9 +348,13 @@
 		{
 			"name": "Providence Helmet suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Providence Helmet Guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_how"],
-			"blobsFolders": ["blobs_how"],
+			"tooltip": "Install the Providence Helmet Guard's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_how"
+			],
+			"blobsFolders": [
+				"blobs_how"
+			],
 			"localisedLines": {
 				"0030F86050E4560A": "UI_TOKEN_OUTFIT_HERO_AX1_SUIT_NAME",
 				"009F7A31D9F9AC35": "UI_TOKEN_OUTFIT_HERO_AX1_SUIT_DESC"
@@ -323,9 +369,13 @@
 		{
 			"name": "Elite Guard Blue Ark suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Blue Elite Guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_blue"],
-			"blobsFolders": ["blobs_blue"],
+			"tooltip": "Install the Blue Elite Guard's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_blue"
+			],
+			"blobsFolders": [
+				"blobs_blue"
+			],
 			"localisedLines": {
 				"00AC0147C73291F5": "UI_TOKEN_OUTFIT_HERO_JAMY_SUIT_NAME",
 				"001A5D7BD03B5184": "UI_TOKEN_OUTFIT_HERO_JAMY_SUIT_DESC"
@@ -340,9 +390,13 @@
 		{
 			"name": "Terry Norfolk suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Terry Norfolk's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_terry"],
-			"blobsFolders": ["blobs_terry"],
+			"tooltip": "Install the Terry Norfolk's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_terry"
+			],
+			"blobsFolders": [
+				"blobs_terry"
+			],
 			"localisedLines": {
 				"00CC13AAEAB7C11A": "UI_TOKEN_OUTFIT_HERO_N0R0_SUIT_NAME",
 				"00032DA895851A57": "UI_TOKEN_OUTFIT_HERO_N0R0_SUIT_DESC"
@@ -357,9 +411,13 @@
 		{
 			"name": "Vampire Magician Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Vampire Magician's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_rand"],
-			"blobsFolders": ["blobs_peacock_rand"],
+			"tooltip": "Install the Vampire Magician's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_rand"
+			],
+			"blobsFolders": [
+				"blobs_peacock_rand"
+			],
 			"localisedLines": {
 				"0044E10B03A00AEC": "UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_NAME",
 				"00C17FA73E649624": "UI_TOKEN_OUTFIT_HERO_RANDX_SUIT_DESC"
@@ -374,9 +432,13 @@
 		{
 			"name": "Siberian Tiger suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Siberian Tiger's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_falcon"],
-			"blobsFolders": ["blobs_falcon"],
+			"tooltip": "Install the Siberian Tiger's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_falcon"
+			],
+			"blobsFolders": [
+				"blobs_falcon"
+			],
 			"localisedLines": {
 				"00404829B6284AF2": "UI_TOKEN_OUTFIT_HERO_LP1TR_SUIT_NAME",
 				"00422E0E602FC2C4": "UI_TOKEN_OUTFIT_HERO_LP1TR_SUIT_DESC"
@@ -391,9 +453,13 @@
 		{
 			"name": "Siberian Prison Guard suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Siberian Prison Guard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_sib"],
-			"blobsFolders": ["blobs_sib"],
+			"tooltip": "Install the Siberian Prison Guard's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_sib"
+			],
+			"blobsFolders": [
+				"blobs_sib"
+			],
 			"localisedLines": {
 				"00E367E8E7A48E9B": "UI_TOKEN_OUTFIT_HERO_CR1PF_SUIT_NAME",
 				"00D5A9768CFECF34": "UI_TOKEN_OUTFIT_HERO_CR1PF_SUIT_DESC"
@@ -408,9 +474,13 @@
 		{
 			"name": "Juan Cortazar suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Juan Cortazar's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_juan"],
-			"blobsFolders": ["blobs_juan"],
+			"tooltip": "Install the Juan Cortazar's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_juan"
+			],
+			"blobsFolders": [
+				"blobs_juan"
+			],
 			"localisedLines": {
 				"00DC824E7F216FF7": "UI_TOKEN_OUTFIT_HERO_CTXTN_SUIT_NAME",
 				"006776DC00F32C79": "UI_TOKEN_OUTFIT_HERO_CTXTN_SUIT_DESC"
@@ -425,9 +495,13 @@
 		{
 			"name": "Ether Hazmat White Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Ether Hazmat Suit White version as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_kalxa"],
-			"blobsFolders": ["blobs_kalxa"],
+			"tooltip": "Install the Ether Hazmat Suit White version as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_kalxa"
+			],
+			"blobsFolders": [
+				"blobs_kalxa"
+			],
 			"localisedLines": {
 				"00E7B4C2B2D296F3": "UI_TOKEN_OUTFIT_HERO_KALXA1_SUIT_NAME",
 				"008B73D44C81309B": "UI_TOKEN_OUTFIT_HERO_KALXA1_SUIT_DESC"
@@ -442,9 +516,13 @@
 		{
 			"name": "DJ Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the DJ Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_dj"],
-			"blobsFolders": ["blobs_dj"],
+			"tooltip": "Install the DJ Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_dj"
+			],
+			"blobsFolders": [
+				"blobs_dj"
+			],
 			"localisedLines": {
 				"00D9A984870DD852": "UI_TOKEN_OUTFIT_HERO_ZDXA_SUIT_NAME",
 				"00C3AF04CF77734D": "UI_TOKEN_OUTFIT_HERO_ZDXA_SUIT_DESC"
@@ -459,9 +537,13 @@
 		{
 			"name": "Ether Hazmat Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Ether Hazmat Suit version as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_pxda1"],
-			"blobsFolders": ["blobs_pxda1"],
+			"tooltip": "Install the Ether Hazmat Suit version as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_pxda1"
+			],
+			"blobsFolders": [
+				"blobs_pxda1"
+			],
 			"localisedLines": {
 				"00E5A0F9602E7ED7": "UI_TOKEN_OUTFIT_HERO_PXDA1_SUIT_NAME",
 				"0012154F675B4634": "UI_TOKEN_OUTFIT_HERO_PXDA1_SUIT_DESC"
@@ -476,9 +558,13 @@
 		{
 			"name": "Journalist suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Journalist's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_joji"],
-			"blobsFolders": ["blobs_peacock_joji"],
+			"tooltip": "Install the Journalist's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_joji"
+			],
+			"blobsFolders": [
+				"blobs_peacock_joji"
+			],
 			"localisedLines": {
 				"0047FB2EFEDB653E": "UI_TOKEN_OUTFIT_HERO_JOJI_SUIT_NAME",
 				"001E837D0F5C3F4B": "UI_TOKEN_OUTFIT_HERO_JOJI_SUIT_DESC"
@@ -493,9 +579,13 @@
 		{
 			"name": "Ted Mendez suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Ted Mendez's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_ted"],
-			"blobsFolders": ["blobs_ted"],
+			"tooltip": "Install the Ted Mendez's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_ted"
+			],
+			"blobsFolders": [
+				"blobs_ted"
+			],
 			"localisedLines": {
 				"00364CCD819FE675": "UI_TOKEN_OUTFIT_HERO_LSXP_SUIT_NAME",
 				"000C85EA7050592A": "UI_TOKEN_OUTFIT_HERO_LSXP_SUIT_DESC"
@@ -510,9 +600,13 @@
 		{
 			"name": "Noire suit with Sunglass Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Noire's suit with sunglasses as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_glass"],
-			"blobsFolders": ["blobs_peacock_glass"],
+			"tooltip": "Install the Noire's suit with sunglasses as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_glass"
+			],
+			"blobsFolders": [
+				"blobs_peacock_glass"
+			],
 			"localisedLines": {
 				"00F927D3BCD0757F": "UI_TOKEN_OUTFIT_HERO_JAT_NOOB_NAME",
 				"00F45B691A393BC6": "UI_TOKEN_OUTFIT_HERO_JAT_NOOB_DESC"
@@ -527,9 +621,13 @@
 		{
 			"name": "Noire suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the noire's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_noire"],
-			"blobsFolders": ["blobs_peacock_noire"],
+			"tooltip": "Install the noire's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_noire"
+			],
+			"blobsFolders": [
+				"blobs_peacock_noire"
+			],
 			"localisedLines": {
 				"0008487C4CD8747A": "UI_TOKEN_OUTFIT_HERO_BUM_SUIT_NAME",
 				"00B59BC255A03DBE": "UI_TOKEN_OUTFIT_HERO_BUM_SUIT_DESC"
@@ -544,9 +642,13 @@
 		{
 			"name": "Lead Actor Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Lead Actor's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_kota"],
-			"blobsFolders": ["blobs_peacock_kota"],
+			"tooltip": "Install the Lead Actor's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_kota"
+			],
+			"blobsFolders": [
+				"blobs_peacock_kota"
+			],
 			"localisedLines": {
 				"0014E35CFFCD1D57": "UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_NAME",
 				"000F2B083F676101": "UI_TOKEN_OUTFIT_HERO_KOTA_SUIT_DESC"
@@ -561,9 +663,13 @@
 		{
 			"name": "Street Guard (Masked) Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the street guard (masked) suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_street"],
-			"blobsFolders": ["blobs_street"],
+			"tooltip": "Install the street guard (masked) suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_street"
+			],
+			"blobsFolders": [
+				"blobs_street"
+			],
 			"localisedLines": {
 				"00E81275A1315528": "UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_NAME",
 				"002B2220B93A1EEF": "UI_TOKEN_OUTFIT_HERO_KUTX_SUIT_DESC"
@@ -578,9 +684,13 @@
 		{
 			"name": "General Murillo Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the General Murillo Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_tim"],
-			"blobsFolders": ["blobs_peacock_tim"],
+			"tooltip": "Install the General Murillo Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_tim"
+			],
+			"blobsFolders": [
+				"blobs_peacock_tim"
+			],
 			"localisedLines": {
 				"00FFF7A1549DF66C": "UI_TOKEN_OUTFIT_HERO_MIT_SUIT_NAME",
 				"001DA1C95107D104": "UI_TOKEN_OUTFIT_HERO_MIT_SUIT_DESC"
@@ -595,9 +705,13 @@
 		{
 			"name": "Bellini Bodyguard Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Belini Bodyguard Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_kaju"],
-			"blobsFolders": ["blobs_kaju"],
+			"tooltip": "Install the Belini Bodyguard Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_kaju"
+			],
+			"blobsFolders": [
+				"blobs_kaju"
+			],
 			"localisedLines": {
 				"00ED5D75EB7C3CBA": "UI_TOKEN_OUTFIT_HERO_KAJUX_SUIT_NAME",
 				"00586EFDA1CDC224": "UI_TOKEN_OUTFIT_HERO_KAJUX_SUIT_DESC"
@@ -612,9 +726,13 @@
 		{
 			"name": "Helmut Kruger Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the infamous Helmut Kruger Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_helmut"],
-			"blobsFolders": ["blobs_peacock_helmut"],
+			"tooltip": "Install the infamous Helmut Kruger Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_helmut"
+			],
+			"blobsFolders": [
+				"blobs_peacock_helmut"
+			],
 			"localisedLines": {
 				"008A88270EF87EA1": "UI_TOKEN_OUTFIT_HERO_HEM_SUIT_NAME",
 				"0050F73864E1B399": "UI_TOKEN_OUTFIT_HERO_HEM_SUIT_DESC"
@@ -629,9 +747,13 @@
 		{
 			"name": "Detective Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Private Detective suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_wit"],
-			"blobsFolders": ["blobs_peacock_wit"],
+			"tooltip": "Install the Private Detective suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_wit"
+			],
+			"blobsFolders": [
+				"blobs_peacock_wit"
+			],
 			"localisedLines": {
 				"0094324A6AF7C170": "UI_TOKEN_OUTFIT_HERO_WITMER_SUIT_NAME",
 				"00981E7ABC75591F": "UI_TOKEN_OUTFIT_HERO_WITMER_SUIT_DESC"
@@ -646,9 +768,13 @@
 		{
 			"name": "Philo Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the The Philo Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_philo"],
-			"blobsFolders": ["blobs_peacock_philo"],
+			"tooltip": "Install the The Philo Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_philo"
+			],
+			"blobsFolders": [
+				"blobs_peacock_philo"
+			],
 			"localisedLines": {
 				"00308C5A2AEF4691": "UI_TOKEN_OUTFIT_HERO_PHILO_SUIT_NAME",
 				"00F76CA6DEA6AF2B": "UI_TOKEN_OUTFIT_HERO_PHILO_SUIT_DESC"
@@ -663,9 +789,13 @@
 		{
 			"name": "Purple Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the purple suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_purple"],
-			"blobsFolders": ["blobs_peacock_purple"],
+			"tooltip": "Install the purple suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_purple"
+			],
+			"blobsFolders": [
+				"blobs_peacock_purple"
+			],
 			"localisedLines": {
 				"00E3EBB1EE739226": "UI_TOKEN_OUTFIT_HERO_PURPLE_TRINITY_NAME",
 				"009420A072A9F76D": "UI_TOKEN_OUTFIT_HERO_PURPLE_TRINITY_DESC"
@@ -680,9 +810,13 @@
 		{
 			"name": "Rolf Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the rolf suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_rolf"],
-			"blobsFolders": ["blobs_peacock_rolf"],
+			"tooltip": "Install the rolf suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_rolf"
+			],
+			"blobsFolders": [
+				"blobs_peacock_rolf"
+			],
 			"localisedLines": {
 				"00A17B8EE2D939EE": "UI_TOKEN_OUTFIT_HERO_ROLF_SUIT_NAME",
 				"004BBD9706B3BCAE": "UI_TOKEN_OUTFIT_HERO_ROLF_SUIT_DESC"
@@ -697,9 +831,13 @@
 		{
 			"name": "Bunny Robber Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the bunny robber suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_robber"],
-			"blobsFolders": ["blobs_peacock_robber"],
+			"tooltip": "Install the bunny robber suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_robber"
+			],
+			"blobsFolders": [
+				"blobs_peacock_robber"
+			],
 			"localisedLines": {
 				"00DDCBAEBDBD0416": "UI_TOKEN_OUTFIT_HERO_BORK_SUIT_NAME",
 				"006B677753CDF1EF": "UI_TOKEN_OUTFIT_HERO_BORK_SUIT_DESC"
@@ -714,9 +852,13 @@
 		{
 			"name": "Providence Commando Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the providence commando suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_colt"],
-			"blobsFolders": ["blobs_peacock_colt"],
+			"tooltip": "Install the providence commando suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_colt"
+			],
+			"blobsFolders": [
+				"blobs_peacock_colt"
+			],
 			"localisedLines": {
 				"007A45B81F2DF33A": "UI_TOKEN_OUTFIT_HERO_CILT_SUIT_NAME",
 				"00494276362FCB67": "UI_TOKEN_OUTFIT_HERO_CILT_SUIT_DESC"
@@ -731,9 +873,13 @@
 		{
 			"name": "Facility Guard (Masked) Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the facility guard (masked) suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_chad"],
-			"blobsFolders": ["blobs_peacock_chad"],
+			"tooltip": "Install the facility guard (masked) suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_chad"
+			],
+			"blobsFolders": [
+				"blobs_peacock_chad"
+			],
 			"localisedLines": {
 				"000516462EC2CB14": "UI_TOKEN_OUTFIT_HERO_CHAD_SUIT_NAME",
 				"002FBCDC9B25DB7C": "UI_TOKEN_OUTFIT_HERO_CHAD_SUIT_DESC"
@@ -748,9 +894,13 @@
 		{
 			"name": "Corvo Black Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Corvo Black suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_corvo"],
-			"blobsFolders": ["blobs_peacock_corvo"],
+			"tooltip": "Install the Corvo Black suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_corvo"
+			],
+			"blobsFolders": [
+				"blobs_peacock_corvo"
+			],
 			"localisedLines": {
 				"00B9F0DFC37E0EBE": "UI_TOKEN_OUTFIT_HERO_PUNE_SUIT_NAME",
 				"001BE87CEC08F0DF": "UI_TOKEN_OUTFIT_HERO_PUNE_SUIT_DESC"
@@ -765,9 +915,13 @@
 		{
 			"name": "Bodyguard Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Bodyguard's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_paju"],
-			"blobsFolders": ["blobs_paju"],
+			"tooltip": "Install the Bodyguard's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_paju"
+			],
+			"blobsFolders": [
+				"blobs_paju"
+			],
 			"localisedLines": {
 				"0084C859BE2C7E5E": "UI_TOKEN_OUTFIT_HERO_PAJUX_SUIT_NAME",
 				"00E4E9FA6715AE3D": "UI_TOKEN_OUTFIT_HERO_PAJUX_SUIT_DESC"
@@ -782,9 +936,13 @@
 		{
 			"name": "Smart Raven Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the smart raven suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_kaxt"],
-			"blobsFolders": ["blobs_peacock_kaxt"],
+			"tooltip": "Install the smart raven suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_kaxt"
+			],
+			"blobsFolders": [
+				"blobs_peacock_kaxt"
+			],
 			"localisedLines": {
 				"00715F6E32B89DC2": "UI_TOKEN_OUTFIT_HERO_KAXT_SUIT_NAME",
 				"0073F75D8A5BF822": "UI_TOKEN_OUTFIT_HERO_KAXT_SUIT_DESC"
@@ -799,9 +957,13 @@
 		{
 			"name": "Motorcyclist Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the motorcyclist suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_motor"],
-			"blobsFolders": ["blobs_peacock_motor"],
+			"tooltip": "Install the motorcyclist suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_motor"
+			],
+			"blobsFolders": [
+				"blobs_peacock_motor"
+			],
 			"localisedLines": {
 				"00A83B54D8D40371": "UI_TOKEN_OUTFIT_HERO_SHIV_SUIT_NAME",
 				"00DB366D243784DC": "UI_TOKEN_OUTFIT_HERO_SHIV_SUIT_DESC"
@@ -816,9 +978,13 @@
 		{
 			"name": "Moses Lee Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the moses lee's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_rama"],
-			"blobsFolders": ["blobs_peacock_rama"],
+			"tooltip": "Install the moses lee's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_rama"
+			],
+			"blobsFolders": [
+				"blobs_peacock_rama"
+			],
 			"localisedLines": {
 				"00EE473FE4AD9274": "UI_TOKEN_OUTFIT_HERO_RAMA_SUIT_NAME",
 				"00EAAAE38487C95D": "UI_TOKEN_OUTFIT_HERO_RAMA_SUIT_DESC"
@@ -833,9 +999,13 @@
 		{
 			"name": "Baseball Suit Peacock Addon",
 			"type": "checkbox",
-			"tooltip": "Install the Baseball's suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": ["content_peacock_mota"],
-			"blobsFolders": ["blobs_peacock_mota"],
+			"tooltip": "Install the Baseball's suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_peacock_mota"
+			],
+			"blobsFolders": [
+				"blobs_peacock_mota"
+			],
 			"localisedLines": {
 				"00E21814F01C0026": "UI_TOKEN_OUTFIT_HERO_MOTA_SUIT_NAME",
 				"003DE754A2FD64B9": "UI_TOKEN_OUTFIT_HERO_MOTA_SUIT_DESC"
@@ -851,8 +1021,12 @@
 			"name": "Street Smart [Tutorial Suit by Jojje] (It's Basic Suit, so it's your choice whether you wanna add it or not)",
 			"type": "checkbox",
 			"tooltip": "Adds tutorial street smart to main suit except add another suit for peacock, you can choose this option if you dont want to replace anything or you prefer Peacock.",
-			"contentFolders": ["content_nothing"],
-			"blobsFolders": ["blobs_nothing"],
+			"contentFolders": [
+				"content_nothing"
+			],
+			"blobsFolders": [
+				"blobs_nothing"
+			],
 			"localisedLines": {
 				"00FA39746422A77A": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_NAME",
 				"0094E475D38D6641": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_DESC"
@@ -866,6 +1040,31 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "00B60381BA27719C",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "000762B5EEADAD7B",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00077A1FDC32126D",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0059D95C50F16E06",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "000385067C17BD18",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "00FF62F7CBF8AE6E",
 			"toChunk": 0,
