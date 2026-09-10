@@ -1,1 +1,13 @@
-{"b067c857-bcb8-4180-a226-6311f2349a44":{"CommonName":"CHAR_Global_Hero_Omr_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_OMR_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_omr.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_OMR_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_OMR_SUIT","Category":""}}
+{
+	"b067c857-bcb8-4180-a226-6311f2349a44": {
+		"CommonName": "CHAR_Global_Hero_Omr_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_OMR_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_omr.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_OMR_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_OMR_SUIT",
+		"Category": ""
+	}
+}
