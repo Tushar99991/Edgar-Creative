@@ -1,1 +1,13 @@
-{"7b2c64f9-9d17-4ac5-b52b-d2a02ecd3438":{"CommonName":"CHAR_Global_Hero_Atma_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_atma.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_ATMA_SUIT","Category":""}}
+{
+	"7b2c64f9-9d17-4ac5-b52b-d2a02ecd3438": {
+		"CommonName": "CHAR_Global_Hero_Atma_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_atma.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_ATMA_SUIT",
+		"Category": ""
+	}
+}

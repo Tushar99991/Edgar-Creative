@@ -5,18 +5,14 @@
 	"description": "The collection of several Outfits including unique designs from whole Trilogy. PLEASE MAKE SURE TO SELECT ALL CHECKBOX SUIT OPTIONS.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.42",
-	"version": "1.26.0",
+	"version": "1.27.0",
 	"options": [
 		{
 			"name": "Lance Hsu Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Lance Hsu's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_amt"
-			],
-			"blobsFolders": [
-				"blobs_amt"
-			],
+			"contentFolders": ["content_amt"],
+			"blobsFolders": ["blobs_amt"],
 			"localisedLines": {
 				"000F0132C78EA472": "UI_TOKEN_OUTFIT_HERO_AMT_SUIT_NAME",
 				"002AEEE7C9E1E634": "UI_TOKEN_OUTFIT_HERO_AMT_SUIT_DESC"
@@ -32,12 +28,8 @@
 			"name": "Stalker Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Stalker's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_atma"
-			],
-			"blobsFolders": [
-				"blobs_atma"
-			],
+			"contentFolders": ["content_atma"],
+			"blobsFolders": ["blobs_atma"],
 			"localisedLines": {
 				"0035B4EFEA2FE7F7": "UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_NAME",
 				"0010FE0566D7787B": "UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_DESC"
@@ -53,12 +45,8 @@
 			"name": "Militia Spec Ops Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Militia Spec Ops's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_mta"
-			],
-			"blobsFolders": [
-				"blobs_mta"
-			],
+			"contentFolders": ["content_mta"],
+			"blobsFolders": ["blobs_mta"],
 			"localisedLines": {
 				"0005C1D9082C8137": "UI_TOKEN_OUTFIT_HERO_MTA_SUIT_NAME",
 				"00C28C360EF88B50": "UI_TOKEN_OUTFIT_HERO_MTA_SUIT_DESC"
