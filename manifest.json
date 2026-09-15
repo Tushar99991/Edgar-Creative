@@ -8,6 +8,69 @@
 	"version": "1.26.0",
 	"options": [
 		{
+			"name": "Lance Hsu Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Lance Hsu's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_amt"
+			],
+			"blobsFolders": [
+				"blobs_amt"
+			],
+			"localisedLines": {
+				"000F0132C78EA472": "UI_TOKEN_OUTFIT_HERO_AMT_SUIT_NAME",
+				"002AEEE7C9E1E634": "UI_TOKEN_OUTFIT_HERO_AMT_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_AMT_SUIT_NAME": "Lance Hsu Suit",
+					"UI_TOKEN_OUTFIT_HERO_AMT_SUIT_DESC": "Lance Hsu Suit from Ambrose Island's Mission."
+				}
+			}
+		},
+		{
+			"name": "Stalker Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Stalker's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_atma"
+			],
+			"blobsFolders": [
+				"blobs_atma"
+			],
+			"localisedLines": {
+				"0035B4EFEA2FE7F7": "UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_NAME",
+				"0010FE0566D7787B": "UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_NAME": "Stalker Suit",
+					"UI_TOKEN_OUTFIT_HERO_ATMA_SUIT_DESC": "Stalker's Suit from Bangkok's Mission."
+				}
+			}
+		},
+		{
+			"name": "Militia Spec Ops Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Militia Spec Ops's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_mta"
+			],
+			"blobsFolders": [
+				"blobs_mta"
+			],
+			"localisedLines": {
+				"0005C1D9082C8137": "UI_TOKEN_OUTFIT_HERO_MTA_SUIT_NAME",
+				"00C28C360EF88B50": "UI_TOKEN_OUTFIT_HERO_MTA_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_MTA_SUIT_NAME": "Militia Spec Ops Suit",
+					"UI_TOKEN_OUTFIT_HERO_MTA_SUIT_DESC": "Militia Spec Ops's Suit from Colorado's Mission."
+				}
+			}
+		},
+		{
 			"name": "Fishnet Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Fishnet's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -842,6 +905,31 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "002F2AB8C63CED72",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0000E53B9783EC26",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "009939A77D91EF00",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0062D2B8C94C0A83",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00DAE1B90877A77D",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "00B60381BA27719C",
 			"toChunk": 0,
