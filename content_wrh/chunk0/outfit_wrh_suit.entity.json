@@ -67,13 +67,7 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": [
-						"cafe4d1601dd9e5a",
-						"cafee4009f469c6d",
-						"cafe5d668c61eeaa",
-						"cafe1f238e3b3473",
-						"cafefa8bc62eeee5"
-					]
+					"T": ["cafe4d1601dd9e5a", "cafee4009f469c6d", "cafe5d668c61eeaa", "cafe1f238e3b3473", "cafefa8bc62eeee5"]
 				}
 			}
 		},
@@ -290,11 +284,7 @@
 			"properties": {
 				"m_ClothColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe7f529624cab1",
-						"cafe65f29b9a9ae8",
-						"cafe063aa02c0c84"
-					],
+					"value": ["cafe7f529624cab1", "cafe65f29b9a9ae8", "cafe063aa02c0c84"],
 					"postInit": true
 				},
 				"m_eidParent": {

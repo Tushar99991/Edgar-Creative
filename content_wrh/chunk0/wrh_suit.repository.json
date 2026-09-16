@@ -1,1 +1,13 @@
-{"2200a7d6-0b13-483e-9210-3469a65bc580":{"CommonName":"CHAR_Global_Hero_Wrh_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_WRH_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_wrh.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_WRH_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_WRH_SUIT","Category":""}}
+{
+	"2200a7d6-0b13-483e-9210-3469a65bc580": {
+		"CommonName": "CHAR_Global_Hero_Wrh_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_WRH_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_wrh.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_WRH_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_WRH_SUIT",
+		"Category": ""
+	}
+}

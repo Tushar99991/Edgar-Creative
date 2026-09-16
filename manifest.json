@@ -5,18 +5,14 @@
 	"description": "The collection of several Outfits including unique designs from whole Trilogy. PLEASE MAKE SURE TO SELECT ALL CHECKBOX SUIT OPTIONS.",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.42",
-	"version": "1.27.0",
+	"version": "1.28.0",
 	"options": [
 		{
 			"name": "Spencer Green Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Spencer Green's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_rwh"
-			],
-			"blobsFolders": [
-				"blobs_rwh"
-			],
+			"contentFolders": ["content_rwh"],
+			"blobsFolders": ["blobs_rwh"],
 			"localisedLines": {
 				"00DE69649052E830": "UI_TOKEN_OUTFIT_HERO_RWH_SUIT_NAME",
 				"00EDF34E8F34D5EC": "UI_TOKEN_OUTFIT_HERO_RWH_SUIT_DESC"
@@ -32,12 +28,8 @@
 			"name": "Undertaker's Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Undertaker's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_wrh"
-			],
-			"blobsFolders": [
-				"blobs_wrh"
-			],
+			"contentFolders": ["content_wrh"],
+			"blobsFolders": ["blobs_wrh"],
 			"localisedLines": {
 				"00E116D2A1BD4514": "UI_TOKEN_OUTFIT_HERO_WRH_SUIT_NAME",
 				"00F936CEAF0B4907": "UI_TOKEN_OUTFIT_HERO_WRH_SUIT_DESC"
@@ -53,12 +45,8 @@
 			"name": "Boat Captain Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Boat Captain's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
-			"contentFolders": [
-				"content_whr"
-			],
-			"blobsFolders": [
-				"blobs_whr"
-			],
+			"contentFolders": ["content_whr"],
+			"blobsFolders": ["blobs_whr"],
 			"localisedLines": {
 				"0036154F9B86CCC4": "UI_TOKEN_OUTFIT_HERO_WHR_SUIT_NAME",
 				"007948F57BFEF808": "UI_TOKEN_OUTFIT_HERO_WHR_SUIT_DESC"

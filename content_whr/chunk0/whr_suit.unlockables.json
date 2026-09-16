@@ -1,1 +1,24 @@
-{"TOKEN_OUTFIT_HERO_WHR_SUIT":{"Guid":"18b2532e-3918-488c-911e-fdc4bc292bd5","Type":"disguise","Subtype":"casual","ImageId":"","RMTPrice":-1,"GamePrice":-1,"IsPurchasable":false,"IsPublished":true,"IsDroppable":false,"Capabilities":[],"Qualities":{},"Properties":{"Quality":4,"Rarity":"common","LoadoutSlot":"disguise","IsConsumable":false,"RepositoryId":"901d1561-f9d9-4369-b228-630d55c12152","OrderIndex":21},"Rarity":"common"}}
+{
+	"TOKEN_OUTFIT_HERO_WHR_SUIT": {
+		"Guid": "18b2532e-3918-488c-911e-fdc4bc292bd5",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "901d1561-f9d9-4369-b228-630d55c12152",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}
