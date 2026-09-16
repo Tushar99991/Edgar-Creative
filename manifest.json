@@ -8,6 +8,69 @@
 	"version": "1.27.0",
 	"options": [
 		{
+			"name": "Spencer Green Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Spencer Green's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_rwh"
+			],
+			"blobsFolders": [
+				"blobs_rwh"
+			],
+			"localisedLines": {
+				"00DE69649052E830": "UI_TOKEN_OUTFIT_HERO_RWH_SUIT_NAME",
+				"00EDF34E8F34D5EC": "UI_TOKEN_OUTFIT_HERO_RWH_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_RWH_SUIT_NAME": "Spencer Green Suit",
+					"UI_TOKEN_OUTFIT_HERO_RWH_SUIT_DESC": "Spencer Green Suit from Whittleton Creek's Mission."
+				}
+			}
+		},
+		{
+			"name": "Undertaker's Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Undertaker's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_wrh"
+			],
+			"blobsFolders": [
+				"blobs_wrh"
+			],
+			"localisedLines": {
+				"00E116D2A1BD4514": "UI_TOKEN_OUTFIT_HERO_WRH_SUIT_NAME",
+				"00F936CEAF0B4907": "UI_TOKEN_OUTFIT_HERO_WRH_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_WRH_SUIT_NAME": "Undertaker Suit",
+					"UI_TOKEN_OUTFIT_HERO_WRH_SUIT_DESC": "Undertaker Suit from Dartmoor's Mission."
+				}
+			}
+		},
+		{
+			"name": "Boat Captain Suit Peacock Addon",
+			"type": "checkbox",
+			"tooltip": "Install the Boat Captain's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"contentFolders": [
+				"content_whr"
+			],
+			"blobsFolders": [
+				"blobs_whr"
+			],
+			"localisedLines": {
+				"0036154F9B86CCC4": "UI_TOKEN_OUTFIT_HERO_WHR_SUIT_NAME",
+				"007948F57BFEF808": "UI_TOKEN_OUTFIT_HERO_WHR_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_WHR_SUIT_NAME": "Boat Captain 47",
+					"UI_TOKEN_OUTFIT_HERO_WHR_SUIT_DESC": "Boat Captain Suit from Haven Island's Mission."
+				}
+			}
+		},
+		{
 			"name": "Lance Hsu Suit Peacock Addon",
 			"type": "checkbox",
 			"tooltip": "Install the Lance Hsu's Suit as a Peacock addon (does not replace existing suits). Works when playing offline or with Peacock.",
@@ -893,6 +956,21 @@
 		}
 	],
 	"dependencies": [
+		{
+			"runtimeID": "0003F12120E7B74F",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "0098B7DE38B28CB6",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00EF07007B7404F6",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
 		{
 			"runtimeID": "002F2AB8C63CED72",
 			"toChunk": 0,
