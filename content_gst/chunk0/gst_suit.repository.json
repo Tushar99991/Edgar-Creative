@@ -1,1 +1,13 @@
-{"23c76087-c50f-4724-80ce-01cb65d75aa8":{"CommonName":"CHAR_Global_Hero_Gst_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_GST_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_gst.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_GST_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_GST_SUIT","Category":""}}
+{
+	"23c76087-c50f-4724-80ce-01cb65d75aa8": {
+		"CommonName": "CHAR_Global_Hero_Gst_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_GST_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_gst.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_GST_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_GST_SUIT",
+		"Category": ""
+	}
+}

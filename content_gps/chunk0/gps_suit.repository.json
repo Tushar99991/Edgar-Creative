@@ -1,1 +1,13 @@
-{"015f1d7c-7136-4305-b76c-77b6b36e1745":{"CommonName":"CHAR_Global_Hero_Gps_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_GPS_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_gps.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_GPS_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_GPS_SUIT","Category":""}}
+{
+	"015f1d7c-7136-4305-b76c-77b6b36e1745": {
+		"CommonName": "CHAR_Global_Hero_Gps_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_GPS_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_gps.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_GPS_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_GPS_SUIT",
+		"Category": ""
+	}
+}

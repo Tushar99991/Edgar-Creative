@@ -74,12 +74,7 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": [
-						"cafe7f24ea038494",
-						"cafed4a6ae9eb69a",
-						"cafe21b5511cbd3c",
-						"cafe3a4bcee91792"
-					]
+					"T": ["cafe7f24ea038494", "cafed4a6ae9eb69a", "cafe21b5511cbd3c", "cafe3a4bcee91792"]
 				}
 			}
 		},
@@ -351,11 +346,7 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafeab933c8392f9",
-						"cafe3f1ef37f971e",
-						"cafeafb2290fa0fc"
-					],
+					"value": ["cafeab933c8392f9", "cafe3f1ef37f971e", "cafeafb2290fa0fc"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -428,11 +419,7 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe26decf54078b",
-						"cafe6aa4822f657f",
-						"cafe077e36ba6caf"
-					],
+					"value": ["cafe26decf54078b", "cafe6aa4822f657f", "cafe077e36ba6caf"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -762,12 +749,7 @@
 			"properties": {
 				"m_ClothColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe691ae65099b4",
-						"cafe232bc6d5c22c",
-						"cafef167ea35ee4d",
-						"cafefee808418f2d"
-					],
+					"value": ["cafe691ae65099b4", "cafe232bc6d5c22c", "cafef167ea35ee4d", "cafefee808418f2d"],
 					"postInit": true
 				},
 				"m_eidParent": {
