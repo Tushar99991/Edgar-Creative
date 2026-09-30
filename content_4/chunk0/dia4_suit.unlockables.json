@@ -1,1 +1,24 @@
-{" TOKEN_OUTFIT_HERO_DIA4_SUIT":{"Guid":"7087d4be-3a79-430c-8e26-c7447ce3ea08","Type":"disguise","Subtype":"casual","ImageId":"","RMTPrice":-1,"GamePrice":-1,"IsPurchasable":false,"IsPublished":true,"IsDroppable":false,"Capabilities":[],"Qualities":{},"Properties":{"Quality":4,"Rarity":"common","LoadoutSlot":"disguise","IsConsumable":false,"RepositoryId":"18f8995c-088f-4881-bd4b-c39f364a38c6","OrderIndex":21},"Rarity":"common"}}
+{
+	" TOKEN_OUTFIT_HERO_DIA4_SUIT": {
+		"Guid": "7087d4be-3a79-430c-8e26-c7447ce3ea08",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "18f8995c-088f-4881-bd4b-c39f364a38c6",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

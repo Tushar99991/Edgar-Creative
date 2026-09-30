@@ -24,11 +24,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_06_Value": [
-						"487ad4f0a2188be2",
-						"16181b0aa6e77faa",
-						"562726a94c9b016c"
-					],
+					"ConstantVector1D_06_Value": ["487ad4f0a2188be2", "16181b0aa6e77faa", "562726a94c9b016c"],
 					"Jacket_NormalBump": ["6497347d10ed9d0e"],
 					"JacketSleave_NormalBump": ["6497347d10ed9d0e"],
 					"Shirt_NormalBump": ["6497347d10ed9d0e"]
@@ -152,11 +148,7 @@
 			"events": {
 				"Lerp": {
 					"ConstantVector1D_14_Value": ["487ad4f0a2188be2"],
-					"ConstantVector1D_04_Value": [
-						"dd1517b507eab1be",
-						"ffb162c5b159ac62",
-						"ca9e86cfdaed4c16"
-					],
+					"ConstantVector1D_04_Value": ["dd1517b507eab1be", "ffb162c5b159ac62", "ca9e86cfdaed4c16"],
 					"Shirt_RoughnessMin": ["6497347d10ed9d0e"]
 				}
 			}
@@ -175,10 +167,7 @@
 				"Lerp": {
 					"Jacket_RoughnessMin": ["6497347d10ed9d0e"],
 					"JacketSleave_RoughnessMin": ["6497347d10ed9d0e"],
-					"ConstantVector1D_14_Value": [
-						"16181b0aa6e77faa",
-						"562726a94c9b016c"
-					]
+					"ConstantVector1D_14_Value": ["16181b0aa6e77faa", "562726a94c9b016c"]
 				}
 			}
 		},
